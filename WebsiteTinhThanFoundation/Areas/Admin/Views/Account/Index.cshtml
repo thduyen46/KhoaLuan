@@ -1,0 +1,73 @@
+﻿@model ICollection<WebsiteTinhThanFoundation.ViewModels.UserInfoVM>
+@using WebsiteTinhThanFoundation.Helpers
+@{
+    ViewData["Title"] = "Quản lý tài khoản";
+}
+<header class="mb-3">
+    <a href="#" class="burger-btn d-block d-xl-none">
+        <i class="bi bi-justify fs-3"></i>
+    </a>
+</header>
+
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>@ViewData["Title"]</h3>
+                <p class="text-subtitle text-muted"></p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home" asp-area="Admin">Dashboard</a></li>                   
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <div class="card">
+            <div class="card-header card-header d-flex justify-content-between">
+                <h5 class="card-title">
+                    @ViewData["Title"]
+                </h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped" id="table1">
+                    <thead>
+                        <tr>
+                            <th>Mã</th>
+                            <th>Tên hiển thị</th>
+                            <th>Chức vụ</th>
+                            <th class="text-end">Chức năng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr role="row">
+                                <td>
+                                    @item.UserId
+                                </td>
+                                <td>
+                                    @(String.IsNullOrEmpty(item.FullName) ? "" : item.FullName)
+                                </td>
+                                <td>
+                                    @(item.Roles is null ? "" : string.Join(" , ", item.Roles.ToList()))
+                                </td>
+                                <td class="text-end">
+                                    <div class="actions">
+                                        <a asp-action="Edit" asp-route-userId="@item.UserId" class="btn btn-sm bg-danger-light">
+                                            <i class="far fa-edit"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </section>
+</div>

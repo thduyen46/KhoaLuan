@@ -1,0 +1,117 @@
+﻿@model WebsiteTinhThanFoundation.Models.BlogArticle
+
+@{
+    ViewData["Title"] = "Thêm bài viết";
+}
+<header class="mb-3">
+    <a href="#" class="burger-btn d-block d-xl-none">
+        <i class="bi bi-justify fs-3"></i>
+    </a>
+</header>
+
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>@ViewData["Title"]</h3>
+                <p class="text-subtitle text-muted">
+                </p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home" asp-area="Admin">Dashboard</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- // Basic multiple Column Form section start -->
+    <section id="multiple-column-form">
+        <div class="row match-height">
+            <div class="col-12">
+                <div class="card">                
+                    <div class="card-content">
+                        <div class="card-body">
+                            <form class="form" asp-action="Create" data-parsley-validate enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group mandatory">
+                                            <label for="first-name-column" class="form-label">
+                                                Tên hiển thị
+                                            </label>
+                                            <input asp-for="@Model.Title" type="text" id="first-name-column" class="form-control"
+                                                   placeholder="Tiêu đề"
+                                                   data-parsley-required="true" />
+                                            <span asp-validation-for="@Model.Title" class="text-danger">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group mandatory">
+                                            <label class="form-label">
+                                                Chọn danh mục
+                                            </label>
+                                            <select class="choices form-select">
+                                                <option value="danh_muc_1">HIV/AIDS</option>
+                                                <option value="danh_muc_2">Bạo Lực Gia Đình</option>
+                                                <option value="danh_muc_3">Tiết Kiệm Tín Dụng</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group mandatory">
+                                            <label class="form-label">
+                                                Nội dung ngắn
+                                            </label>
+                                            <textarea asp-for="ShortContent" class="form-control">@Model.Content</textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mandatory">
+                                        <label class="form-label">
+                                            Tags
+                                        </label>
+                                        <input asp-for="@Model.HagTags" type="text" class="form-control tags"
+                                               placeholder="Điền tag gợi ý" value="@ViewBag.TagList"
+                                               data-parsley-required="true" />
+                                        <span asp-validation-for="@Model.HagTags" class="text-danger">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group mandatory">
+                                            <label class="form-label">
+                                                Nội dung
+                                            </label>
+                                            <textarea asp-for="Content" class="editor" cols="30" rows="10">@Model.Content</textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="my-4">
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary me-1 mb-1">
+                                            Đăng bài
+                                        </button>
+                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1">
+                                            Thoát
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // Basic multiple Column Form section end -->
+</div>

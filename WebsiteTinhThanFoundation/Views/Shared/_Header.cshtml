@@ -1,0 +1,41 @@
+﻿@{
+    var currentRoute = ViewContext.RouteData.Values["controller"].ToString() + "/" + ViewContext.RouteData.Values["action"].ToString();
+}
+
+
+
+<!-- Navbar-->
+<div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+        <a asp-controller="Home" asp-action="Index" asp-area="" class="navbar-brand p-0">
+            <img src="~/img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a asp-controller="Home" asp-action="Index" asp-area="" class="nav-item nav-link active">Trang Chủ</a>
+                <a asp-controller="Home" asp-action="About" asp-area="" class="nav-item nav-link">Về Chúng Tôi</a>
+                <a asp-action="Index" asp-controller="Blog" class="nav-item nav-link">Blog</a> 
+                <a asp-controller="Home" asp-action="Contact" asp-area="" class="nav-item nav-link">Liên Hệ</a>
+            </div>
+            <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+            <a href="#" class="btn btn-primary py-2 px-4 ms-3">Tham Gia Tình Nguyện Viên</a>
+        </div>
+    </nav>
+    @if (currentRoute != "Home/Index")
+    {
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">@ViewData["Title"]</h1>
+                    <a href="" class="h5 text-white">Trang Chủ</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="" class="h5 text-white">@ViewData["Title"]</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<!-- End Navbar -->

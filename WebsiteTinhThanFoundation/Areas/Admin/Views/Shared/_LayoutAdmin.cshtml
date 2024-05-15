@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Tình Thân Foundation - @ViewData["Title"]</title>
+
+    @{
+        await Html.RenderPartialAsync("_Meta");
+        await Html.RenderPartialAsync("_Style");
+    }
+</head>
+<body>
+    <script src="~/LayoutAdmin/static/js/initTheme.js"></script>
+    <span id="message" class="d-none">@TempData["ToastrMessage"]</span>
+    <span id="status" class="d-none">@TempData["ToastrMessageType"]</span>
+    <div id="app">
+        @{
+            await Html.RenderPartialAsync("_SlideBar");
+        }
+        <div id="main">
+            @RenderBody()
+            @{
+                await Html.RenderPartialAsync("_Footer");
+            }
+
+            
+        </div>
+    </div>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,119 @@
+﻿@model ICollection<WebsiteTinhThanFoundation.Models.Registeredvolunteers>
+@using WebsiteTinhThanFoundation.Helpers
+@{
+    ViewData["Title"] = "Quản lý tình nguyện viên";
+}
+<header class="mb-3">
+    <a href="#" class="burger-btn d-block d-xl-none">
+        <i class="bi bi-justify fs-3"></i>
+    </a>
+</header>
+
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>@ViewData["Title"]</h3>
+                <p class="text-subtitle text-muted"></p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home" asp-area="Admin">Dashboard</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <div class="card">
+            <div class="card-header card-header d-flex justify-content-between">
+                <h5 class="card-title">
+                    @ViewData["Title"]
+                </h5>
+                <a class="btn btn-primary" asp-action="Create" asp-controller="Blog" asp-area="Admin">Tạo thêm bài viết</a>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped" id="table1">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Tên tình nguyện viên</th>
+                            <th>Email</th>
+                            <th>Địa chỉ</th>
+                            <th>Ngày đăng ký</th>
+                            <th>Trạng thái</th>
+                            <th class="text-end">Chức năng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            var elementModal = $"ElementModalVolunteer{item.Id}";
+                            <tr role="row">
+                                <td>@item.Id</td>
+                                <td>
+                                    @item.FullName
+                                </td>
+                                <td>
+                                    @item.Email
+                                </td>
+                                <td>
+                                    @item.Addreass
+                                </td>
+                                <td>
+                                    @(item.CreatedOn.ToString("HH:mm dd/MM/yyyy"))
+                                </td>
+                                <th>
+                                    @if(item.IsContacted)
+                                    {
+                                        <span class="badge bg-primary-light">Đã liên lạc</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger-dark">Chưa liên lạc</span>
+                                    }
+                                </th>
+                                <td class="text-end">a
+                                    <div class="actions">
+                                        <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal" data-bs-target="#@elementModal">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a asp-action="Edit" asp-route-Id="@item.Id" class="btn btn-sm bg-danger-light">
+                                            <i class="far fa-edit"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                @foreach(var item in Model)
+                {
+                    var elementModal = $"ElementModalVolunteer{item.Id}";
+                    <!-- Modal -->
+                    <div class="modal fade" id="@elementModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Thông tin liên lạc</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Test @item.Id
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Xác nhận đã liên lạc</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+
+    </section>
+</div>

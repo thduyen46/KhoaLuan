@@ -1,0 +1,139 @@
+﻿@model WebsiteTinhThanFoundation.ViewModels.BlogDetailVM
+
+@{
+    ViewData["Title"] = $"Bài viết {Model.BlogDetail.Title}";
+}
+
+
+<!-- Blog Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-8">
+            <!--    <div class="row g-5">      --> 
+            
+                <!-- Blog Detail Start -->
+                <div class="mb-5"> 
+                    <h1 class="mb-4">@Model.BlogDetail.Title</h1>
+                    @Html.Raw(Model.BlogDetail.Content)
+                </div>
+                <!-- Blog Detail End -->
+                <!-- Comment List Start -->
+                <div class="mb-5">
+                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                        <h3 class="mb-0">Bình luận</h3>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <img src="~/img/user1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
+                        <div class="ps-3">
+                            <h6><a href="">An Khang</a> <small><i>13/04/2024</i></small></h6>
+                            <p>
+                                Qua ấn phẩm này tôi sẽ nên chú tâm tới quá trình làm việc nhóm hơn để không làm 
+                                chậm tiến độ nhóm, nâng cao năng suất làm việc và thúc đẩy bản thân trở nên chuyên nghiệp 
+                                hơn trong mảng việc mình chọn để không ảnh hưởng đến nhóm.
+                            </p>
+                            <button class="btn btn-sm btn-light">Trả lời</button>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <img src="~/img/user2.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
+                        <div class="ps-3">
+                            <h6><a href="">Chúc Ly</a> <small><i>04/04/2024</i></small></h6>
+                            <p>
+                                Qua ấn phẩm này em đã học hỏi rất nhiều từ những bước đầu xây dựng ấn phẩm, 
+                                em đã học được cách biên tập nội dung vàcách làm việc với 1 tổ chức là như thế 
+                                nào, qua đó em rất cảm ơn môn học cũng như trung tâm service learning đã tạo điều kiện để 
+                                em được tiếp cận và học hỏi nhiều điều từ các anh chị trong tổ chức.
+                            </p>
+                            <button class="btn btn-sm btn-light">Trả lời</button>
+                        </div>
+                       
+                    </div>
+                    <div class="d-flex ms-5 mb-4">
+                        <img src="~/img/user3.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
+                        <div class="ps-3">
+                            <h6><a href="">Minh Khoa</a> <small><i>01/05/2024</i></small></h6>
+                            <p>
+                                Cảm ơn mọi người rất nhiều.
+                            </p>
+                            <button class="btn btn-sm btn-light">Trả lời</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- Comment List End -->
+                <!-- Comment Form Start -->
+                
+                <!-- Comment Form End -->
+            </div>
+
+            <!-- Sidebar Start -->
+            <div class="col-lg-4">
+                <!-- Search Form Start -->
+                <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="input-group">
+                        <input type="text" class="form-control p-3" placeholder="Từ khóa">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+                <!-- Search Form End -->
+                <!-- Recent Post Start -->
+                <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                        <h3 class="mb-0">Bài viết gần đây</h3>
+                    </div>
+                    @foreach(var item in Model.BlogFeature)
+                    {
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="~/img/blogl3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a asp-action="Article" asp-route-permalink="@item.Permalink" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 w-100">
+                                @item.Title
+                            </a>
+                        </div>
+                    }
+                    
+                </div>
+                <!-- Recent Post End -->
+                <!-- Tags Start -->
+                <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                        <h3 class="mb-0">Gắn thẻ</h3>
+                    </div>
+                    <div class="d-flex flex-wrap m-n1">
+                        @foreach(var item in Model.BlogDetail.Tags)
+                        {
+                            if(item.Tag != null)
+                            {
+                                <a asp-action="Index" asp-route-tagname="@item.Tag!.Name" class="btn btn-light m-1">@(item.Tag is null ? "" : item.Tag.Name)</a>
+                            }
+                        }
+                    </div>
+                </div>
+                <!-- Tags End -->
+              
+            </div>
+            <!-- Sidebar End -->
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+<!-- Vendor Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5 mb-5">
+        <div class="bg-white">
+            <div class="owl-carousel vendor-carousel">
+                <img src="~/img/vendor-1.jpg" alt="">
+                <img src="~/img/vendor-2.jpg" alt="">
+                <img src="~/img/vendor-3.jpg" alt="">
+                <img src="~/img/vendor-4.jpg" alt="">
+                <img src="~/img/vendor-5.jpg" alt="">
+                <img src="~/img/vendor-6.jpg" alt="">
+                <img src="~/img/vendor-7.jpg" alt="">
+                <img src="~/img/vendor-8.jpg" alt="">
+                <img src="~/img/vendor-9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Vendor End -->
+

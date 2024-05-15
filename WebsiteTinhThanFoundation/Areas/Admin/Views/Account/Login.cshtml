@@ -1,0 +1,81 @@
+﻿﻿
+@model WebsiteTinhThanFoundation.ViewModels.UserInfoVM
+
+@{
+    Layout = "_LayoutLogin.cshtml";
+}
+<div class="row h-100">
+    <div class="col-lg-5 col-12" style="display: flex; align-items: center;">
+        <div id="auth-left">
+            <div class="auth-logo">
+                <a asp-action="Index" asp-controller="Home" asp-area=""><img src="~/img/logo.png" height="200" alt="Logo"></a>
+            </div>
+            <h1 class="auth-title">Đăng Nhập</h1>
+            <p class="auth-subtitle mb-5">Đăng nhập bằng tài khoản mà bạn đã đăng ký.</p>
+
+            <form asp-action="Login" asp-controller="Account" asp-area="Admin">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group position-relative has-icon-left mb-4">
+                    <input asp-for="UserName" class="form-control form-control-xl" placeholder="Tên tài khoản">
+                    <div class="form-control-icon">
+                        <i class="bi bi-person"></i>
+                    </div>
+                </div>
+                <div class="form-group position-relative has-icon-left mb-4">
+                    <input asp-for="Password" type="password" class="form-control form-control-xl" placeholder="Mật khẩu">
+                    <div class="form-control-icon">
+                        <i class="bi bi-shield-lock"></i>
+                    </div>
+                </div>
+                <div class="form-check form-check-lg d-flex align-items-end">
+                    <input asp-for="RememberMe" class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label text-gray-600" for="flexCheckDefault">
+                        Duy trì đăng nhập
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Đăng nhập</button>
+            </form>
+            @{
+                if (Model.ExternalLogins != null)
+                {
+                    @if (Model.ExternalLogins.Count > 0)
+                    {
+                        <form id="external-account" asp-action="ExternalLogin" asp-controller="Account" method="post" class="form-horizontal">
+                            <div>
+                                <p>
+                                    @foreach (var provider in Model.ExternalLogins!)
+                                    {
+                                        if (String.Equals(@provider.DisplayName, "Google"))
+                                        {
+                                            <button type="submit" class="btn btn-light w-100 border border-1 border-dark" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
+                                                <span class="me-2"><i class="fa-brands fa-google"></i></span>Đăng Nhập Bằng @provider.DisplayName
+                                            </button>
+                                        }
+                                        else
+                                        {
+                                            <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                        }
+                                    }
+                                </p>
+                            </div>
+                        </form>
+                    }
+
+                }
+            }
+            <div class="text-center mt-5 text-lg fs-4">
+                <p class="text-gray-600">
+                    Bạn chưa có tài khoản? <a href="auth-register.html" class="font-bold">
+                        Đăng ký.
+                    </a>.
+                </p>
+                <p><a class="font-bold" href="auth-forgot-password.html">Quên mật khẩu?</a>.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7 d-none d-lg-block">
+        <div id="auth-right" style="display: flex; align-items: center;">
+            <img class="" src="~/img/login.jpg" style="width: 100%;" alt="">
+        </div>
+    </div>
+</div>

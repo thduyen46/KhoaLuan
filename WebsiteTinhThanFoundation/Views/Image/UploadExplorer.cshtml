@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "Upload Explorer";
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Props Image Gallery</title>
+    <meta name="description"
+          content="@ViewData["Title"]" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/editor.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/gallery.css" asp-append-version="true" />
+</head>
+<body>
+    <header><h1>Gallery</h1></header>
+    <main>
+        <section>
+            <div class="imageGallery" id="fileExplorer">
+                @foreach (var file in ViewBag.FileInfo)
+                {
+                    <button>
+                        <picture>
+                            <img width="309"
+                                 height="309"
+                                 src="@file.ToString()"
+                                 alt="A cute cat"
+                                 loading="lazy" />
+                        </picture>
+                    </button>
+                }
+                
+            </div>
+
+        </section>
+    </main>
+    <!-- <script src="./js/gallery.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script>
+        $(document).ready(function () {
+            var funcNum = @(Context.Request.Query["CKEditorFuncNum"] + ";");
+            const images = document.querySelectorAll('.imageGallery button');
+            images.forEach((img, index) => {
+                console.log(index);
+                img.addEventListener('click', (event) => {
+                    var fileUrl = event.currentTarget.querySelector('img').getAttribute('src');
+                    console.log(fileUrl);
+                    window.opener.CKEDITOR.tools.callFunction(funcNum, fileUrl);
+                    window.close();
+                });
+            });
+
+        });
+    </script>
+</body>
+
