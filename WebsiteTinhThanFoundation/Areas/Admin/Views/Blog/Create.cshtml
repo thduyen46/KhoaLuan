@@ -31,12 +31,32 @@
     <section id="multiple-column-form">
         <div class="row match-height">
             <div class="col-12">
-                <div class="card">                
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">@ViewData["Title"]</h4>
+                    </div>
                     <div class="card-content">
                         <div class="card-body">
                             <form class="form" asp-action="Create" data-parsley-validate enctype="multipart/form-data">
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                 <div class="row">
+                                    <!-- File uploader with image preview -->
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="card-title">Ảnh đại diện</h5>
+                                            </div>
+                                            <div class="card-content">
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        Vui lòng chọn ảnh để đại diện diện cho bài viết này
+                                                    </p>
+                                                    <!-- File uploader with image preview -->
+                                                    <input type="file" asp-for="@Model.UploadFile" class="image-preview-filepond">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-6 col-12">
                                         <div class="form-group mandatory">
                                             <label for="first-name-column" class="form-label">
@@ -95,6 +115,7 @@
                                         </div>
                                     </div>
                                 </div>
+                             
                                 <hr class="my-4">
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-end">

@@ -38,7 +38,7 @@ namespace WebsiteTinhThanFoundation.Services
             => await _unitOfWork.RegisteredVolunteerRepository.CountAsync();
 
         public async Task<ICollection<Registeredvolunteers>> GetAllAsync()
-            => await _unitOfWork.RegisteredVolunteerRepository.GetAllAsync(orderBy: x => x.OrderBy(q => q.CreatedOn));
+            => (await _unitOfWork.RegisteredVolunteerRepository.GetAllAsync());
 
         public async Task<Registeredvolunteers?> GetByIdAsync(Guid? Id)
             => await _unitOfWork.RegisteredVolunteerRepository.GetAsync(x => x.Id == Id);

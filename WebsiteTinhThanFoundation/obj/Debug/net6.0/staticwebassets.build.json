@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "doSrBecVX1vfg3CxsNQUPTHlFHrL93H+DmnF6pNTRTE=",
+  "Hash": "iG+ej5nnKabBfBwj/g1C8yNlzq7g/EYuJlyDo2nlf5k=",
   "Source": "WebsiteTinhThanFoundation",
   "BasePath": "_content/WebsiteTinhThanFoundation",
   "Mode": "Default",
@@ -1224,12 +1224,12 @@
       "OriginalItemSpec": "wwwroot\\img\\about-2.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog1.jpg",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-1.jpg",
       "SourceId": "WebsiteTinhThanFoundation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
       "BasePath": "_content/WebsiteTinhThanFoundation",
-      "RelativePath": "img/blog1.jpg",
+      "RelativePath": "img/blog-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\blog1.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\blog-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog2.jpg",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-2.jpg",
       "SourceId": "WebsiteTinhThanFoundation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
       "BasePath": "_content/WebsiteTinhThanFoundation",
-      "RelativePath": "img/blog2.jpg",
+      "RelativePath": "img/blog-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,15 +1255,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\blog2.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\blog-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blogl3.jpg",
+      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-3.jpg",
       "SourceId": "WebsiteTinhThanFoundation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
       "BasePath": "_content/WebsiteTinhThanFoundation",
-      "RelativePath": "img/blogl3.jpg",
+      "RelativePath": "img/blog-3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,41 +1272,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\blogl3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carouse-2.jpg",
-      "SourceId": "WebsiteTinhThanFoundation",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
-      "BasePath": "_content/WebsiteTinhThanFoundation",
-      "RelativePath": "img/carouse-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\carouse-2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carouse-3.jpg",
-      "SourceId": "WebsiteTinhThanFoundation",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
-      "BasePath": "_content/WebsiteTinhThanFoundation",
-      "RelativePath": "img/carouse-3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\carouse-3.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\blog-3.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-1.jpg",
@@ -1324,6 +1290,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\carousel-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-2.jpg",
+      "SourceId": "WebsiteTinhThanFoundation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
+      "BasePath": "_content/WebsiteTinhThanFoundation",
+      "RelativePath": "img/carousel-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\carousel-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-3.jpg",
+      "SourceId": "WebsiteTinhThanFoundation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
+      "BasePath": "_content/WebsiteTinhThanFoundation",
+      "RelativePath": "img/carousel-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\carousel-3.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\feature.jpg",
@@ -1375,23 +1375,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\LOGO-GREEN-BLUE.png"
-    },
-    {
-      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\login.jpg",
-      "SourceId": "WebsiteTinhThanFoundation",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
-      "BasePath": "_content/WebsiteTinhThanFoundation",
-      "RelativePath": "img/login.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\login.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-1.jpg",
@@ -1681,6 +1664,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\testimonial-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\user.jpg",
+      "SourceId": "WebsiteTinhThanFoundation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\",
+      "BasePath": "_content/WebsiteTinhThanFoundation",
+      "RelativePath": "img/user.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\user.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\user1.jpg",

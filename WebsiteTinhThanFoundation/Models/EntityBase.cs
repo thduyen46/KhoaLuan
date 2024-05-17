@@ -12,8 +12,9 @@ namespace WebsiteTinhThanFoundation.Models
         }
 
         [Key]
+        [Display(Name = "Code", Order = 1)]
         public Guid Id { get; set; }
-
+        [Display(Name = "Ngày đăng ký", Order = 2)]
         public DateTimeOffset CreatedOn { get; set; }
     }
 }

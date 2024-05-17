@@ -498,7 +498,7 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgb(4 8 8 / 70%), rgb(4 8 8 / 70%)), url(../img/carouse-2.jpg) center center no-repeat;
+    background: linear-gradient(rgb(4 8 8 / 70%), rgb(4 8 8 / 70%)), url(../img/carousel-2.jpg) center center no-repeat;
     background-size: cover;
 }
 

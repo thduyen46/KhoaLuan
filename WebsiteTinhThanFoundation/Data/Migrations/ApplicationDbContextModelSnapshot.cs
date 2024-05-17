@@ -247,11 +247,11 @@ namespace WebsiteTinhThanFoundation.Migrations
                             Id = "a3e8ce56-31af-4d35-b7fc-efc8a3d0c048",
                             AccessFailedCount = 0,
                             ConcurrencyStamp = "b19f1b24-5ac9-4c8d-9b7c-5e5d5f5cfb1e",
-                            Email = "admin@tiemkiet.vn",
+                            Email = "admin@locallhost.vn",
                             EmailConfirmed = true,
                             FullName = "Admin",
                             LockoutEnabled = true,
-                            NormalizedEmail = "admin@tiemkiet.vn",
+                            NormalizedEmail = "admin@locallhost.vn",
                             NormalizedUserName = "admin",
                             PasswordHash = "AQAAAAEAACcQAAAAECAsUeOByw0jsD4x7X0K9WQdxWV/RrvPBnHITnRzdbrhHKzmf35BZDPXJBcVjp5FIQ==",
                             PhoneNumber = "0923425148",
@@ -379,6 +379,36 @@ namespace WebsiteTinhThanFoundation.Migrations
                     b.HasIndex("TagId");
 
                     b.ToTable("BlogArticleTags");
+                });
+
+            modelBuilder.Entity("WebsiteTinhThanFoundation.Models.Contact", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NumberPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts");
                 });
 
             modelBuilder.Entity("WebsiteTinhThanFoundation.Models.Registeredvolunteers", b =>

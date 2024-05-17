@@ -6,10 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-
 if (builder.Environment.IsDevelopment())
 {
     builder.Services.AddRazorPages()
@@ -25,7 +21,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
     .AddDefaultUI()
     .AddErrorDescriber<CustomIdentityErrorDescriber>()
     .AddDefaultTokenProviders();
-
+builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddMemoryCache();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
@@ -34,6 +30,17 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
     options.Cookie.HttpOnly = true;
 });
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    // Cookie settings
+    options.ExpireTimeSpan = TimeSpan.FromDays(654);
+    options.Cookie.HttpOnly = true;
+    options.LoginPath = "/admin/account/login";
+    options.AccessDeniedPath = "/Home/Error";
+    options.SlidingExpiration = true;
+});
+
 AddAuthorizationPolicies();
 var app = builder.Build();
 
@@ -66,5 +73,7 @@ void AddAuthorizationPolicies()
     builder.Services.AddAuthorization(options =>
     {
         options.AddPolicy(Constants.Policies.RequireAdmin, policy => policy.RequireRole(Constants.Roles.Admin));
+        options.AddPolicy(Constants.Policies.RequireStaff, policy => policy.RequireRole(Constants.Roles.Admin, Constants.Roles.Staff));
+        options.AddPolicy(Constants.Policies.RequireVolunteer, policy => policy.RequireRole(Constants.Roles.Admin, Constants.Roles.Staff, Constants.Roles.Volunteer));
     });
 }

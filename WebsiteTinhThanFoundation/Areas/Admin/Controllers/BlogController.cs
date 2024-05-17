@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using WebsiteTinhThanFoundation.AutoMapperProfiles.BlogProfiles;
 using WebsiteTinhThanFoundation.Helpers;
 using WebsiteTinhThanFoundation.Models;
 using WebsiteTinhThanFoundation.Services.Interface;
@@ -9,7 +12,7 @@ using WebsiteTinhThanFoundation.ViewModels;
 namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
 {
     [Authorize]
-    [Authorize(Policy = Constants.Policies.RequireAdmin)]
+    [Authorize(Policy = Constants.Policies.RequireVolunteer)]
     [Area("Admin")]
     public class BlogController : Controller
     {
@@ -17,15 +20,16 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
         private readonly ILogger<BlogController> _logger;
         private readonly ITagService _tagService;
         private readonly IUserService _userService;
+        private readonly IMapper _mapper;
         public BlogController(IBlogArticleService blogArticleService, ILogger<BlogController> logger, IUserService userService, 
-            ITagService tagService)
+            ITagService tagService, IMapper mapper)
         {
             _blogArticleService = blogArticleService;
             _logger = logger;
             _userService = userService;
             _tagService = tagService;
+            _mapper = mapper;
         }
-
         public async Task<IActionResult> Index()
         {
             try
@@ -69,6 +73,51 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             var tags = await _tagService.GetAllAsync();
             ViewData["TagList"] = string.Join(", ", tags.Select(x => x.Name).ToList());
             return View(model);
+        }
+
+        public async Task<IActionResult> Edit(Guid blogId)
+        {
+            var blogArticle = (await _blogArticleService.GetByAsync(blogId, x => x.Include(t => t.Tags)));
+            if(blogArticle == null)
+            {
+                this.AddToastrMessage("Không tìm thấy dữ liệu", Enums.ToastrMessageType.Error);
+                return RedirectToAction(nameof(Create));
+            }
+            var model = _mapper.Map<BlogArticleDTO>(blogArticle);
+            List<string>? tagList = JsonConvert.DeserializeObject<List<TagModel>>(model.HagTags!)?.Select(x => x.Value).ToList();
+            if (tagList != null)
+            {
+                ViewData["TagList"] = string.Join(",", tagList);
+            }
+            return View(model);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(BlogArticleDTO model, Guid blogId)
+        {
+            try
+            {
+                if (model.BlogId != blogId)
+                {
+                    this.AddToastrMessage("Đã có lỗi xảy ra, vui lòng thử lại", Enums.ToastrMessageType.Error);
+                    return RedirectToAction(nameof(Index));
+                }
+                var user = await _userService.GetUser();
+                if (user == null)
+                {
+                    this.AddToastrMessage("Vui lòng đăng nhập lại và thử lại", Enums.ToastrMessageType.Error);
+                    return RedirectToAction(nameof(Index));
+                }
+                await _blogArticleService.Update(model);
+                this.AddToastrMessage("Chỉnh sửa bài viết thành công", Enums.ToastrMessageType.Success);
+                return RedirectToAction(nameof(Index));
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                this.AddToastrMessage("Đã có lỗi xảy ra từ máy chủ", Enums.ToastrMessageType.Error);
+            }
+            return RedirectToAction(nameof(Index));
         }
     }
 }

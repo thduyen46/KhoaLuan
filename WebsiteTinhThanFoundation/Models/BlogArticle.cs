@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using WebsiteTinhThanFoundation.Data;
 
 namespace WebsiteTinhThanFoundation.Models
@@ -11,6 +12,9 @@ namespace WebsiteTinhThanFoundation.Models
         public string ShortContent { get; set; }
         public bool Visible { get; set; }
         public string BlogImage { get; set; }
+        [JsonIgnore]
+        [NotMapped]
+        public IFormFile UploadFile { get; set; }
         public int Visits { get; set; }
         public DateTime DatePost { get; set; }
         [Required(ErrorMessage = "Phải tạo url")]

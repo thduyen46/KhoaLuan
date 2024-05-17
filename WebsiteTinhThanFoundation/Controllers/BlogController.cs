@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebsiteTinhThanFoundation.Models;
 using WebsiteTinhThanFoundation.Services.Interface;
@@ -12,13 +13,19 @@ namespace WebsiteTinhThanFoundation.Controllers
         private readonly IBlogArticleService _blogArticleService;
         private readonly ITagService _tagService;
         private readonly IBlogArticleCommentService _blogArticleCommentService;
+        private readonly IMapper _mapper;
         private ILogger<BlogController> _logger;
-        public BlogController(IBlogArticleService blogArticleService, ITagService tagService, ILogger<BlogController> logger, IBlogArticleCommentService blogArticleCommentService)
+        public BlogController(IBlogArticleService blogArticleService, 
+            ITagService tagService, 
+            ILogger<BlogController> logger, 
+            IBlogArticleCommentService blogArticleCommentService,
+            IMapper mapper)
         {
             _blogArticleService = blogArticleService;
             _tagService = tagService;
             _logger = logger;
             _blogArticleCommentService = blogArticleCommentService;
+            _mapper = mapper;
         }
 
         public async Task<IActionResult> Index(string? keyword, string? tagname ,int? page)

@@ -11,14 +11,14 @@ namespace WebsiteTinhThanFoundation.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-
         }
 
-        public DbSet<Registeredvolunteers>? Registeredvolunteers { get; set; } = null!;
-        public DbSet<BlogArticle> BlogArticles { get; set; } = null!;
-        public DbSet<Tag> Tags { get; set; } = null!;
-        public DbSet<BlogArticleTag> BlogArticleTags { get; set; } = null!;
-        public DbSet<BlogArticleComment> BlogArticleComments { get; set; } = null!;
+        public virtual DbSet<Registeredvolunteers> Registeredvolunteers { get; set; } 
+        public virtual DbSet<BlogArticle> BlogArticles { get; set; }
+        public virtual DbSet<Tag> Tags { get; set; }
+        public virtual DbSet<BlogArticleTag> BlogArticleTags { get; set; } 
+        public virtual DbSet<BlogArticleComment> BlogArticleComments { get; set; }
+        public virtual DbSet<Contact> Contacts { get; set; } 
 
         private void SeedRoles(ModelBuilder builder)
         {
@@ -54,8 +54,8 @@ namespace WebsiteTinhThanFoundation.Data
                     Id = "a3e8ce56-31af-4d35-b7fc-efc8a3d0c048",
                     UserName = "admin",
                     NormalizedUserName = "admin",
-                    Email = "admin@tiemkiet.vn",
-                    NormalizedEmail = "admin@tiemkiet.vn",
+                    Email = "admin@locallhost.vn",
+                    NormalizedEmail = "admin@locallhost.vn",
                     EmailConfirmed = true,
                     PasswordHash = "AQAAAAEAACcQAAAAECAsUeOByw0jsD4x7X0K9WQdxWV/RrvPBnHITnRzdbrhHKzmf35BZDPXJBcVjp5FIQ==", //Admin@123
                     SecurityStamp = "ZD5UZJQK6Q5W6N7O6RBRF6DB2Q2G2AIJ",

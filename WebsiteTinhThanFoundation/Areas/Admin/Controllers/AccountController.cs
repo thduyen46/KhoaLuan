@@ -40,7 +40,7 @@ namespace GtaWebsiteTinhThanFoundationV.Areas.Admin.Controllers
             }
             catch (Exception ex)
             {
-                this.AddToastrMessage("Đã có lỗi xảy ra", ToastrMessageType.Error);
+                this.AddToastrMessage("Đã có lỗi xayr ra", ToastrMessageType.Error);
                 _logger.LogError(ex.Message.ToString());
             }
             return RedirectToAction("Index", "Home");

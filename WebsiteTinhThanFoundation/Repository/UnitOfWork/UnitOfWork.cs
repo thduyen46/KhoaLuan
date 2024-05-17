@@ -14,6 +14,7 @@ namespace WebsiteTinhThanFoundation.Repository.UnitOfWork
         private IBlogArticleCommentRepository _blogArticleCommentRepostiroy;
         private ITagRepository _tagRepository;
         private IRegisteredVolunteerRepository _registeredVolunteerRepository;
+        private IContactRepository _contactRepository;
 #pragma warning disable CS8618
         public UnitOfWork(ApplicationDbContext context)
 #pragma warning restore CS8618
@@ -82,6 +83,13 @@ namespace WebsiteTinhThanFoundation.Repository.UnitOfWork
             get
             {
                 return _registeredVolunteerRepository ??= new RegisteredVolunteerRepository(_context);
+            }
+        }
+        public IContactRepository ContactRepository
+        {
+            get
+            {
+                return _contactRepository ??= new ContactRepository(_context);
             }
         }
         public void Commit()
