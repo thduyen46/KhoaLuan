@@ -3,7 +3,7 @@
     <div class="section-title section-title-sm position-relative pb-3 mb-4">
         <h3 class="mb-0">Bình luận</h3>
     </div>
-    <form asp-action="AddCommentBlog" asp-controller="Blog" asp-route-BlogId="@Model.BlogArticleId">
+    <form asp-action="AddCommentBlog" asp-controller="Blog" asp-route-BlogId="@Model.BlogArticleId" method="post">
         <div class="row g-3">
             <div class="col-12 col-sm-6">
                 <input asp-for="@Model.FullName" class="form-control bg-white border-0" placeholder="Họ và tên" style="height: 55px;">

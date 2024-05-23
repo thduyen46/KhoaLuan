@@ -69,6 +69,12 @@
                     <a asp-action="Index" asp-controller="Volunteer" asp-area="Admin" class='sidebar-link'>
                         <i class="bi bi-grid-fill"></i>
                         <span>Quản lý tình nguyện viên</span>
+                     </a>
+                </li>
+                <li class="sidebar-item @ManageNavPages.MainNavClass(ViewContext, "Contact", null, "Admin")  ">
+                    <a asp-action="Index" asp-controller="Contact" asp-area="Admin" class='sidebar-link'>
+                        <i class="bi bi-grid-fill"></i>
+                        <span>Quản lý người liên hệ</span>
                     </a>
                 </li>
             </ul>

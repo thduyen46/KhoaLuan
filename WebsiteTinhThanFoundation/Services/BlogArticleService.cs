@@ -109,25 +109,25 @@ namespace WebsiteTinhThanFoundation.Services
             throw new NotImplementedException();
         }
 
-        public async Task<ICollection<BlogArticle>> GetAllAsync(string? keyword = null, string? tag = null, Func<IQueryable<BlogArticle>, IIncludableQueryable<BlogArticle, object>>? includes = null)
+        public async Task<ICollection<BlogArticle>> GetAllAsync(string? keyword = null, string? tag = null, Func<IQueryable<BlogArticle>, IIncludableQueryable<BlogArticle, object>>? includes = null, bool? isActive = null)
         {
             ICollection<BlogArticle> model = new List<BlogArticle>();  
                 
             if(keyword != null && tag != null)
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword) && x.Tags.Any(q => q.Tag!.Name.Contains(tag)), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword) && (isActive != null ? x.Visible == isActive : true) && x.Tags.Any(q => q.Tag!.Name.Contains(tag)), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
             }
             else if(keyword != null && tag == null)
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword), includes);
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword) && (isActive != null ? x.Visible == isActive : true), includes);
             }
             else if(keyword == null && tag != null)
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Tags.Any(q => q.Tag!.Name.Contains(tag)), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Tags.Any(q => q.Tag!.Name.Contains(tag)) && (isActive != null ? x.Visible == isActive : true), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
             }
             else
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(null, includes);
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => isActive == null || x.Visible == isActive, includes);
             }
             return model;
         }

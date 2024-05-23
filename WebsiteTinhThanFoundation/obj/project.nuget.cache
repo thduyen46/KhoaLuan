@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6gpBZFbsfrI2dr/F2KUvniUWxkSIN1pGs5zlfMnuQeQGpBd8WPfuPEQUan7gfJZX0XpvxK1OymTknG9l+lRWaQ==",
+  "dgSpecHash": "I1/e4Oc/8Mcs8CwUkBfGgKZ1cpWCDyzG1tpOz+ed0NmwspYkX3u7iDvVw+4UZGyb8801Q9FJTYaxH+gb6iWhVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\WebsiteTinhThanFoundation.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\WebsiteTinhThanFoundation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

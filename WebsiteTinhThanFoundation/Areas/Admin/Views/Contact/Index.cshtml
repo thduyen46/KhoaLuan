@@ -1,0 +1,120 @@
+@model List<Contact>
+@using WebsiteTinhThanFoundation.Helpers
+@{
+    ViewData["Title"] = "Quản lý người liên hệ";
+}
+<header class="mb-3">
+    <a href="#" class="burger-btn d-block d-xl-none">
+        <i class="bi bi-justify fs-3"></i>
+    </a>
+</header>
+
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>@ViewData["Title"]</h3>
+                <p class="text-subtitle text-muted"></p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home" asp-area="Admin">Dashboard</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <div class="card">
+            <div class="card-header card-header d-flex justify-content-between">
+                <h5 class="card-title">
+                    @ViewData["Title"]
+                </h5>
+                <a class="btn btn-primary" asp-action="Export" asp-controller="Contact" asp-area="Admin">Download</a>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped" id="table1">
+                    <thead>
+                        <tr>
+                            <th>Mã</th>
+                            <th>Họ và tên</th>
+                            <th>Ngày đăng ký</th>
+                            <th class="text-end">Chức năng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            var elementModal = $"ElementModalVolunteer{item.Id}";
+                            var deleteModal = $"DeleteModalVolunteer{item.Id}";
+                            <tr role="row">
+                                <td>@item.Id</td>
+                                <td>@item.FullName</td>
+                                <td>@(item.CreatedOn.ToString("HH:mm dd/MM/yyyy"))</td>
+                                <td class="text-end">
+                                    <div class="actions">
+                                        <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal" data-bs-target="#@elementModal">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal" data-bs-target="#@deleteModal">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                @foreach (var item in Model)
+                {
+                    var elementModal = $"ElementModalVolunteer{item.Id}";
+                    var deleteModal = $"DeleteModalVolunteer{item.Id}";
+                    <!-- View Modal -->
+                    <div class="modal fade" id="@elementModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Thông tin liên lạc</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <p>Họ và tên: @item.FullName</p>
+                                        <p>Số điện thoại: @item.NumberPhone</p>
+                                        <p>Tiêu đề: @item.Title</p>
+                                        <p>Nội dung: @item.Content</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Delete Modal -->
+                    <div class="modal fade" id="@deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="deleteModalLabel">Xóa liên hệ</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Bạn có chắc chắn muốn xóa liên hệ của <strong>@item.FullName</strong>?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <form asp-action="Delete" asp-controller="Contact" asp-route-id="@item.Id" method="post">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                                        <button type="submit" class="btn btn-danger">Xóa</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</div>

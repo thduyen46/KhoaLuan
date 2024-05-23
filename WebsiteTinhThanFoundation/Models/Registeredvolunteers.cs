@@ -17,7 +17,7 @@ namespace WebsiteTinhThanFoundation.Models
         public string NumberPhone { get; set; }
 
         [Display(Name = "Địa chỉ", Order = 6)]
-        public string Addreass { get; set; }
+        public string Address { get; set; }
 
         [Display(Name = "Trạng thái (1: Đã liên lạc, 0: Chưa liên lạc)", Order = 7)]
         public bool IsContacted { get; set; }

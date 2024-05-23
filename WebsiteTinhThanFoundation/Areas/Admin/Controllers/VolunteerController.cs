@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OfficeOpenXml;
 using WebsiteTinhThanFoundation.Helpers;
 using WebsiteTinhThanFoundation.Models;
@@ -6,6 +7,8 @@ using WebsiteTinhThanFoundation.Services.Interface;
 
 namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
 {
+    [Authorize]
+    [Authorize(Policy = Constants.Policies.RequireAdmin)]
     [Area("admin")]
     public class VolunteerController : Controller
     {
@@ -19,8 +22,8 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var model = (await _registeredvolunteerService.GetAllAsync()) ;
-            if(model == null)
+            var model = (await _registeredvolunteerService.GetAllAsync());
+            if (model == null)
             {
                 model = new List<Registeredvolunteers>();
             }
@@ -31,7 +34,7 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
         {
             try
             {
-                if(await _registeredvolunteerService.AcceptContact(Id))
+                if (await _registeredvolunteerService.AcceptContact(Id))
                 {
                     this.AddToastrMessage("Bạn vừa xác nhận đã liên lạc", Enums.ToastrMessageType.Success);
                     return RedirectToAction(nameof(Index));
@@ -39,8 +42,7 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
                 this.AddToastrMessage("Xác nhận không thành công.", Enums.ToastrMessageType.Error);
                 return RedirectToAction(nameof(Index));
             }
-            catch
-            (Exception ex)
+            catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
             }
@@ -50,22 +52,22 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
         public async Task<IActionResult> Export(CancellationToken cancellationToken)
         {
             // query data from database  
-            await Task.Yield();
-            var list = await _registeredvolunteerService.GetAllAsync();
-            var stream = new MemoryStream();
-
-            using (var package = new ExcelPackage(stream))
-            {
-                var workSheet = package.Workbook.Worksheets.Add("Sheet1");
-                workSheet.Cells.LoadFromCollection(list, true, OfficeOpenXml.Table.TableStyles.Light16);
-                workSheet.Cells.AutoFitColumns();
-                package.Save();
-            }
-            stream.Position = 0;
-            string excelName = $"RegisterVolunteer-{DateTime.Now.ToString("yyyyMMddHHmmssfff")}.xlsx";
+            var stream = await _registeredvolunteerService.ExportData();
+            string excelName = $"Tình nguyện viên-{DateTime.Now.ToString("yyyyMMddHHmmssfff")}.xlsx";
 
             //return File(stream, "application/octet-stream", excelName);  
             return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", excelName);
         }
+  /*      [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (!await _registeredvolunteerService.DeleteAsync(id))
+            {
+                return NotFound();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+        */
     }
 }

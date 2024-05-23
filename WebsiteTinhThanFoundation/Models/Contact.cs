@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebsiteTinhThanFoundation.Models
 {
@@ -7,7 +8,9 @@ namespace WebsiteTinhThanFoundation.Models
         public string FullName { get; set; }
         [Phone]
         public string NumberPhone { get; set; }
+        [Column("Jod")]
         public string Title { get; set; }
+        [Column("Message")]
         public string Content { get; set; }
     }
 }

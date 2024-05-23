@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebsiteTinhThanFoundation.Models;
-using WebsiteTinhThanFoundation.Repository.Interface;
+using WebsiteTinhThanFoundation.Services.Interface;
 
 namespace WebsiteTinhThanFoundation.Controllers
 {
     public class VolunteerController : Controller
     {
-        private readonly IRegisteredVolunteerRepository _registeredVolunteerRepository;
-        private readonly ILogger<VolunteerController> _logger;  
-        public VolunteerController(IRegisteredVolunteerRepository registeredVolunteerRepository)
+        private readonly IRegisteredvolunteerService _service;
+        private readonly ILogger<VolunteerController> _logger;
+        public VolunteerController(IRegisteredvolunteerService serivce)
         {
-            _registeredVolunteerRepository = registeredVolunteerRepository;
+            _service = serivce;
         }
 
         [HttpPost]
@@ -18,9 +18,10 @@ namespace WebsiteTinhThanFoundation.Controllers
         {
             try
             {
-                await _registeredVolunteerRepository.AddAsync(model);
+                await _service.Add(model);
                 return RedirectToAction("Index", "Home");
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
             }

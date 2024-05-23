@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Contact
+@{
     ViewData["Title"] = "Liên hệ";
 }
 
@@ -64,21 +65,21 @@
                 </div>
             </div>
         </div>
-        <div class="row g-5">
+       <div class="row g-5">
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                <form>
+                <form asp-action="Add" asp-controller="Contact">
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <input type="text" class="form-control border-0 bg-light px-4" placeholder="Họ và tên" style="height: 55px;">
+                            <input asp-for="FullName" class="form-control border-0 bg-light px-4" placeholder="Họ và tên" style="height: 55px;">
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control border-0 bg-light px-4" placeholder="Email" style="height: 55px;">
+                            <input asp-for="NumberPhone" class="form-control border-0 bg-light px-4" placeholder="Số điện thoại" style="height: 55px;">
                         </div>
                         <div class="col-12">
-                            <input type="text" class="form-control border-0 bg-light px-4" placeholder="Nghề nghiệp" style="height: 55px;">
+                            <input asp-for="Title" class="form-control border-0 bg-light px-4" placeholder="Nghề nghiệp" style="height: 55px;">
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Tin nhắn"></textarea>
+                            <textarea asp-for="Content" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Tin nhắn"></textarea>
                         </div>
                         <div class="col-12">
                             <button class="btn btn-primary w-100 py-3" type="submit">Gửi</button>

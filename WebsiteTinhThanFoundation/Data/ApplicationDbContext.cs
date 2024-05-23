@@ -24,7 +24,9 @@ namespace WebsiteTinhThanFoundation.Data
         {
             builder.Entity<IdentityRole>().HasData
             (
-                new IdentityRole() { Id = "a19e491a-02b5-4f8b-8aec-ac2becb88eca", Name = Constants.Roles.Admin, NormalizedName = Constants.Roles.Admin, ConcurrencyStamp = null }
+                new IdentityRole() { Id = "a19e491a-02b5-4f8b-8aec-ac2becb88eca", Name = Constants.Roles.Admin, NormalizedName = Constants.Roles.Admin, ConcurrencyStamp = null },
+                new IdentityRole() { Id = "a19e491a-02b5-4f8b-8aec-ac2becb77eca", Name = Constants.Roles.Staff, NormalizedName = Constants.Roles.Staff, ConcurrencyStamp = null },
+                new IdentityRole() { Id = "a19e491a-02b5-4f8b-8aec-ac2becb78eca", Name = Constants.Roles.Volunteer, NormalizedName = Constants.Roles.Volunteer, ConcurrencyStamp = null }
             );
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

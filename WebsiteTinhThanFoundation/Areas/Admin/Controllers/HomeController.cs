@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
 {
     [Authorize]
+    [Authorize(Policy = Constants.Policies.RequireVolunteer)]
     [Area("Admin")]
     public class HomeController : Controller
     {

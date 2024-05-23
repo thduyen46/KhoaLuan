@@ -119,5 +119,23 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(Guid blogId)
+        {
+            try
+            {
+                await _blogArticleService.Delete(blogId);
+                TempData["SuccessMessage"] = "Xóa bài viết thành công";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "Đã có lỗi xảy ra khi xóa bài viết";
+                _logger.LogError(ex.Message);
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

@@ -32,7 +32,7 @@ namespace WebsiteTinhThanFoundation.Controllers
         {
             int pagesize = 10;
             int pagenumber = page == null || page < 0 ? 1 : page.Value;
-            var blogs = await _blogArticleService.GetAllAsync(keyword, tagname);
+            var blogs = await _blogArticleService.GetAllAsync(keyword, tagname, isActive: true);
             var taglist = await _tagService.GetFeatureAsync(12);
             var bloglist = new PagedList<BlogArticle>(blogs, pagenumber, pagesize);
             var blogFeature = await _blogArticleService.GetFeatureAsync();
@@ -47,7 +47,7 @@ namespace WebsiteTinhThanFoundation.Controllers
 
         public async Task<IActionResult> Article(string? permalink)
         {
-            var blog = await _blogArticleService.GetByPermalink(permalink, x => x.Include(t => t.Tags).ThenInclude(q => q.Tag!));
+            var blog = await _blogArticleService.GetByPermalink(permalink, x => x.Include(t => t.Tags).ThenInclude(q => q.Tag!).Include(q => q.BlogArticleComments));
             var blogFeature = await _blogArticleService.GetFeatureAsync();
             BlogDetailVM model = new()
             {
@@ -60,20 +60,20 @@ namespace WebsiteTinhThanFoundation.Controllers
         [HttpPost]    
         public async Task<IActionResult> AddCommentBlog(BlogArticleComment model, Guid BlogId)
         {
+            var blog = await _blogArticleService.GetByAsync(BlogId);
+            if(blog == null)
+            {
+                return NotFound();
+            }
             try
             {
-                var blog = await _blogArticleService.GetByAsync(BlogId);
-                if(blog == null)
-                {
-                    return NotFound();
-                }
                 await _blogArticleCommentService.Add(model, BlogId);
                 return RedirectToAction("Article", "Blog", new { permalink = blog.Permalink });
             }catch(Exception ex)
             {
                 _logger.LogError(ex.Message);
             }
-            return View();
+            return RedirectToAction("Article", "Blog", new { permalink = blog.Permalink });
         }    
     }
 }

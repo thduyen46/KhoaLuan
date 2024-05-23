@@ -54,6 +54,18 @@ namespace WebsiteTinhThanFoundation.Migrations
                             Id = "a19e491a-02b5-4f8b-8aec-ac2becb88eca",
                             Name = "Administrator",
                             NormalizedName = "Administrator"
+                        },
+                        new
+                        {
+                            Id = "a19e491a-02b5-4f8b-8aec-ac2becb77eca",
+                            Name = "Staff",
+                            NormalizedName = "Staff"
+                        },
+                        new
+                        {
+                            Id = "a19e491a-02b5-4f8b-8aec-ac2becb78eca",
+                            Name = "Volunteer",
+                            NormalizedName = "Volunteer"
                         });
                 });
 
@@ -349,10 +361,6 @@ namespace WebsiteTinhThanFoundation.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("BlogArticleId");
@@ -389,7 +397,8 @@ namespace WebsiteTinhThanFoundation.Migrations
 
                     b.Property<string>("Content")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Message");
 
                     b.Property<DateTimeOffset>("CreatedOn")
                         .HasColumnType("datetimeoffset");
@@ -404,7 +413,8 @@ namespace WebsiteTinhThanFoundation.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Jod");
 
                     b.HasKey("Id");
 
@@ -417,7 +427,7 @@ namespace WebsiteTinhThanFoundation.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Addreass")
+                    b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

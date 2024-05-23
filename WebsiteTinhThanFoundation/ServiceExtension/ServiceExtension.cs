@@ -26,6 +26,7 @@ namespace WebsiteTinhThanFoundation.ServiceExtension
             services.AddScoped<IBlogArticleTagRepository, BlogArticleTagRepository>();
             services.AddScoped<ITagRepository, TagRepository>();
             services.AddScoped<IRegisteredVolunteerRepository, RegisteredVolunteerRepository>();
+            services.AddScoped<IContactRepository, ContactRepository>();
             //
 
             //Service
@@ -36,6 +37,7 @@ namespace WebsiteTinhThanFoundation.ServiceExtension
             services.AddScoped(typeof(IRegisteredvolunteerService), typeof(RegisteredvolunteerService));
             services.AddScoped(typeof(IBlogArticleCommentService), typeof(BlogArticleCommentService));
             services.AddScoped(typeof(IFirebaseStorageService), typeof(FirebaseStorageService));
+            services.AddScoped(typeof(IContactService), typeof(ContactService));
             return services;
         }
     }

@@ -1,983 +1,1011 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebsiteTinhThanFoundation.bundle.scp.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebsiteTinhThanFoundation.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebsiteTinhThanFoundation.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app-dark.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app-dark.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\app-dark.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app-dark.rtl.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app-dark.rtl.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\app-dark.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app.rtl.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\app.rtl.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\app.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\application-email.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\application-email.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\application-email.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\auth.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\auth.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\auth.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\eot\\Iconly---Boldd503.html",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\eot\\Iconly---Boldd503.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\eot\\Iconly---Boldd503.html"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\error.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\error.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\error.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\extra-component-comment.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\extra-component-comment.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\extra-component-comment.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\Iconly---Boldd503.ttf",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\Iconly---Boldd503.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\Iconly---Boldd503.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\Iconly---Boldd503.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\Iconly---Boldd503.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\Iconly---Boldd503.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\bootstrap-icons.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-300-normal.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-300-normal.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-300-normal.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-300-normal.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-300-normal.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-300-normal.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-400-normal.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-400-normal.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-400-normal.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-400-normal.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-400-normal.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-400-normal.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-600-normal.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-600-normal.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-600-normal.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-600-normal.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-600-normal.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-600-normal.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-700-normal.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-700-normal.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-700-normal.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-700-normal.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-700-normal.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-700-normal.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-800-normal.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-800-normal.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-800-normal.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-800-normal.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-800-normal.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\fonts\\nunito-latin-800-normal.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\form-editor-summernote.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\form-editor-summernote.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\form-editor-summernote.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\iconly.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\iconly.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\iconly.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\png\\4853433.html",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\png\\4853433.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\png\\4853433.html"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\svg\\Iconly---Boldd503.html",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\svg\\Iconly---Boldd503.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\svg\\Iconly---Boldd503.html"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\table-datatable-jquery.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\table-datatable-jquery.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\table-datatable-jquery.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\table-datatable.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\table-datatable.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\table-datatable.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\ui-icons-dripicons.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\ui-icons-dripicons.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\ui-icons-dripicons.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\ui-widgets-chatbox.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\ui-widgets-chatbox.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\ui-widgets-chatbox.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\ui-widgets-todolist.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\css\\ui-widgets-todolist.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\css\\ui-widgets-todolist.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\1.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\2.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\3.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\4.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\4.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\5.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\5.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\6.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\6.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\7.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\7.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\8.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\8.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\architecture1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\architecture1.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\architecture1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\banana.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\banana.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\banana.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\bg-mountain.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\bg-mountain.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\bg-mountain.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\building.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\building.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\building.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\jump.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\jump.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\jump.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\motorcycle.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\motorcycle.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\motorcycle.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\origami.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\origami.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\origami.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\water.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\jpg\\water.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\jpg\\water.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\js\\app.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\js\\app.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\js\\app.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\1.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\1.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\png\\1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\2.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\2.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\png\\2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\3.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\3.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\png\\3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\4.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\png\\4.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\png\\4.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\audio.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\audio.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\audio.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\ball-triangle.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\ball-triangle.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\ball-triangle.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\circles.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\circles.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\circles.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\error-403.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\error-403.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\error-403.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\error-404.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\error-404.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\error-404.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\error-500.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\error-500.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\error-500.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\favicon.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\favicon.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\favicon.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\grid.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\grid.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\grid.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\hearts.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\hearts.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\hearts.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\logo.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\logo.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\oval.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\oval.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\oval.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\puff.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\puff.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\puff.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\rings.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\compiled\\svg\\rings.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\compiled\\svg\\rings.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\css\\all.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\css\\all.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400d41d.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-brands-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400d41d.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-regular-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900d41d.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900d41d.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@fortawesome\\fontawesome-free\\webfonts\\fa-solid-900d41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.ttf",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripicons.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripiconsd41d.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripiconsd41d.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\@icon\\dripicons\\dripiconsd41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\apexcharts\\apexcharts.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\apexcharts\\apexcharts.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\apexcharts\\apexcharts.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\chart.js\\chart.umd.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\chart.js\\chart.umd.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\chart.js\\chart.umd.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\choices.js\\public\\assets\\scripts\\choices.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\choices.js\\public\\assets\\scripts\\choices.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\choices.js\\public\\assets\\scripts\\choices.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\choices.js\\public\\assets\\styles\\choices.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\choices.js\\public\\assets\\styles\\choices.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\choices.js\\public\\assets\\styles\\choices.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\datatables.net-bs5\\js\\dataTables.bootstrap5.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\datatables.net-bs5\\js\\dataTables.bootstrap5.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\datatables.net-bs5\\js\\dataTables.bootstrap5.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\datatables.net\\js\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\datatables.net\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\datatables.net\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\dayjs\\dayjs.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\dayjs\\dayjs.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\dayjs\\dayjs.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\dragula\\dragula.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\dragula\\dragula.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\dragula\\dragula.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\dragula\\dragula.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\dragula\\dragula.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\dragula\\dragula.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-file-validate-size\\filepond-plugin-file-validate-size.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-file-validate-size\\filepond-plugin-file-validate-size.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-file-validate-size\\filepond-plugin-file-validate-size.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-file-validate-type\\filepond-plugin-file-validate-type.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-file-validate-type\\filepond-plugin-file-validate-type.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-file-validate-type\\filepond-plugin-file-validate-type.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-crop\\filepond-plugin-image-crop.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-crop\\filepond-plugin-image-crop.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-image-crop\\filepond-plugin-image-crop.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-exif-orientation\\filepond-plugin-image-exif-orientation.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-exif-orientation\\filepond-plugin-image-exif-orientation.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-image-exif-orientation\\filepond-plugin-image-exif-orientation.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-filter\\filepond-plugin-image-filter.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-filter\\filepond-plugin-image-filter.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-image-filter\\filepond-plugin-image-filter.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-preview\\filepond-plugin-image-preview.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-preview\\filepond-plugin-image-preview.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-image-preview\\filepond-plugin-image-preview.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-preview\\filepond-plugin-image-preview.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-preview\\filepond-plugin-image-preview.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-image-preview\\filepond-plugin-image-preview.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-resize\\filepond-plugin-image-resize.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond-plugin-image-resize\\filepond-plugin-image-resize.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond-plugin-image-resize\\filepond-plugin-image-resize.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond\\filepond.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond\\filepond.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond\\filepond.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond\\filepond.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\filepond\\filepond.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\filepond\\filepond.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\flatpickr\\flatpickr.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\flatpickr\\flatpickr.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\flatpickr\\flatpickr.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\flatpickr\\flatpickr.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\flatpickr\\flatpickr.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\flatpickr\\flatpickr.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jquery\\jquery.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\jquery\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jsvectormap\\css\\jsvectormap.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jsvectormap\\css\\jsvectormap.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\jsvectormap\\css\\jsvectormap.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jsvectormap\\js\\jsvectormap.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jsvectormap\\js\\jsvectormap.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\jsvectormap\\js\\jsvectormap.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jsvectormap\\maps\\world.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\jsvectormap\\maps\\world.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\jsvectormap\\maps\\world.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\parsleyjs\\parsley.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\parsleyjs\\parsley.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\parsleyjs\\parsley.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\perfect-scrollbar\\perfect-scrollbar.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\perfect-scrollbar\\perfect-scrollbar.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\quill\\quill.bubble.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\quill\\quill.bubble.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\quill\\quill.bubble.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\quill\\quill.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\quill\\quill.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\quill\\quill.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\quill\\quill.snow.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\quill\\quill.snow.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\quill\\quill.snow.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\index5e1f.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\index5e1f.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\rater-js\\index5e1f.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\star_0.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\star_0.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\rater-js\\lib\\star_0.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\star_1.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\star_1.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\rater-js\\lib\\star_1.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\star_1.svg.readme",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\star_1.svg.readme",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\rater-js\\lib\\star_1.svg.readme"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\style.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\rater-js\\lib\\style.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\rater-js\\lib\\style.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\simple-datatables\\style.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\simple-datatables\\style.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\simple-datatables\\style.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\simple-datatables\\umd\\simple-datatables.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\simple-datatables\\umd\\simple-datatables.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\simple-datatables\\umd\\simple-datatables.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernote.ttf",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernote.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\summernote\\font\\summernote.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernote.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernote.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\summernote\\font\\summernote.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernote.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernote.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\summernote\\font\\summernote.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernoted41d.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\font\\summernoted41d.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\summernote\\font\\summernoted41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\summernote-lite.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\summernote-lite.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\summernote\\summernote-lite.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\summernote-lite.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\summernote\\summernote-lite.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\summernote\\summernote-lite.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\sweetalert2\\sweetalert2.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\sweetalert2\\sweetalert2.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\sweetalert2\\sweetalert2.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\sweetalert2\\sweetalert2.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\sweetalert2\\sweetalert2.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\sweetalert2\\sweetalert2.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\tinymce\\tinymce.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\tinymce\\tinymce.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\tinymce\\tinymce.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\toastify-js\\src\\toastify.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\toastify-js\\src\\toastify.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\toastify-js\\src\\toastify.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\toastify-js\\src\\toastify.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\extensions\\toastify-js\\src\\toastify.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\extensions\\toastify-js\\src\\toastify.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\images\\bootstrap-icons.svg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\images\\bootstrap-icons.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\images\\bootstrap-icons.svg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\images\\faces\\19.html",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\images\\faces\\19.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\images\\faces\\19.html"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\components\\dark.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\components\\dark.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\components\\dark.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\initTheme.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\initTheme.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\initTheme.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ckeditor.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ckeditor.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\ckeditor.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\component-toasts.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\component-toasts.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\component-toasts.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\dashboard.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\dashboard.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\dashboard.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\datatables.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\datatables.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\datatables.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\date-picker.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\date-picker.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\date-picker.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\filepond.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\filepond.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\filepond.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\form-element-select.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\form-element-select.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\form-element-select.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\horizontal-layout.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\horizontal-layout.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\horizontal-layout.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\jsvectormap.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\jsvectormap.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\jsvectormap.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\parsley.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\parsley.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\parsley.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\quill.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\quill.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\quill.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\rater-js.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\rater-js.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\rater-js.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\simple-datatables.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\simple-datatables.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\simple-datatables.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\summernote.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\summernote.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\summernote.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\sweetalert2.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\sweetalert2.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\sweetalert2.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\tinymce.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\tinymce.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\tinymce.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\toastify.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\toastify.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\toastify.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ui-apexchart.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ui-apexchart.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\ui-apexchart.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ui-chartjs.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ui-chartjs.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\ui-chartjs.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ui-todolist.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\LayoutAdmin\\static\\js\\pages\\ui-todolist.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\static\\js\\pages\\ui-todolist.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\css\\editor.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\css\\editor.css",
       "PackagePath": "staticwebassets\\css\\editor.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\css\\gallery.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\css\\gallery.css",
       "PackagePath": "staticwebassets\\css\\gallery.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\css\\toastrcustom.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\css\\toastrcustom.css",
       "PackagePath": "staticwebassets\\css\\toastrcustom.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\LOGO-GREEN-BLUE.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\LOGO-GREEN-BLUE.png",
       "PackagePath": "staticwebassets\\img\\LOGO-GREEN-BLUE.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\about-1.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\about-1.png",
       "PackagePath": "staticwebassets\\img\\about-1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\about-2.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\about-2.png",
       "PackagePath": "staticwebassets\\img\\about-2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\about.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-1.jpg",
       "PackagePath": "staticwebassets\\img\\blog-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-2.jpg",
       "PackagePath": "staticwebassets\\img\\blog-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog-3.jpg",
       "PackagePath": "staticwebassets\\img\\blog-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blogl3.jpg",
+      "PackagePath": "staticwebassets\\img\\blogl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carouse-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carouse-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carouse-3.jpg",
+      "PackagePath": "staticwebassets\\img\\carouse-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-1.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-111.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-2.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-3.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\feature.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\feature.jpg",
       "PackagePath": "staticwebassets\\img\\feature.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\logo.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\login.jpg",
+      "PackagePath": "staticwebassets\\img\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-1.jpg",
       "PackagePath": "staticwebassets\\img\\related-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-2.jpg",
       "PackagePath": "staticwebassets\\img\\related-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-3.jpg",
       "PackagePath": "staticwebassets\\img\\related-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-4.jpg",
       "PackagePath": "staticwebassets\\img\\related-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-1.jpg",
       "PackagePath": "staticwebassets\\img\\service-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-2.jpg",
       "PackagePath": "staticwebassets\\img\\service-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-3.jpg",
       "PackagePath": "staticwebassets\\img\\service-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-4.jpg",
       "PackagePath": "staticwebassets\\img\\service-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-5.jpg",
       "PackagePath": "staticwebassets\\img\\service-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-6.jpg",
       "PackagePath": "staticwebassets\\img\\service-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\team-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\team-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\team-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\team-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\testimonial-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\user.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\user.jpg",
       "PackagePath": "staticwebassets\\img\\user.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\user1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\user1.jpg",
       "PackagePath": "staticwebassets\\img\\user1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\user2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\user2.jpg",
       "PackagePath": "staticwebassets\\img\\user2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\user3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\user3.jpg",
       "PackagePath": "staticwebassets\\img\\user3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-1.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-1.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-2.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-2.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-3.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-3.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-4.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-4.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-5.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-5.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-6.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-6.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-7.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-7.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-8.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-8.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-9.jpg",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\vendor-9.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\js\\CKEditor.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\js\\CKEditor.js",
       "PackagePath": "staticwebassets\\js\\CKEditor.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\js\\tagify.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\js\\tagify.js",
       "PackagePath": "staticwebassets\\js\\tagify.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\js\\toastrjs.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\js\\toastrjs.js",
       "PackagePath": "staticwebassets\\js\\toastrjs.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\animate\\animate.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\animate\\animate.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\animate\\animate.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\animate\\animate.min.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\counterup\\counterup.min.js",
       "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernote.ttf",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernote.ttf",
       "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.ttf"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernote.woff",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernote.woff",
       "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.woff"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernote.woff2",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernote.woff2",
       "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.woff2"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernoted41d.eot",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\font\\summernoted41d.eot",
       "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernoted41d.eot"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\summernote-lite.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\summernote-lite.css",
       "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\summernote-lite.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\summernote\\summernote-lite.min.js",
       "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\tagify\\tagify.css",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\tagify\\tagify.css",
       "PackagePath": "staticwebassets\\lib\\tagify\\tagify.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\tagify\\tagify.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\tagify\\tagify.js",
       "PackagePath": "staticwebassets\\lib\\tagify\\tagify.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\tagify\\tagify.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\tagify\\tagify.min.js",
       "PackagePath": "staticwebassets\\lib\\tagify\\tagify.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\waypoints\\links.php",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\wow\\wow.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\wow\\wow.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\BackendFoundation-main\\WebsiteTinhThanFoundation\\wwwroot\\lib\\wow\\wow.min.js",
+      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\lib\\wow\\wow.min.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {

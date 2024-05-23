@@ -20,7 +20,7 @@
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home" asp-area="Admin">Dashboard</a></li>                    
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home" asp-area="Admin">Dashboard</a></li>
                     </ol>
                 </nav>
             </div>
@@ -80,6 +80,11 @@
                                         <a asp-action="Edit" asp-route-blogId="@item.Id" class="btn btn-sm bg-danger-light">
                                             <i class="far fa-edit"></i>
                                         </a>
+                                        <form asp-action="Delete" asp-route-blogId="@item.Id" method="post" class="d-inline">
+                                            <button type="submit" class="btn btn-sm btn-danger">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+                                        </form>
                                     </div>
                                 </td>
                             </tr>
@@ -88,6 +93,5 @@
                 </table>
             </div>
         </div>
-
     </section>
 </div>
