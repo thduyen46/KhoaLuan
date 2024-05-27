@@ -1,5 +1,10 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@using WebsiteTinhThanFoundation.Data
+@model WebsiteTinhThanFoundation.ViewModels.DashboardView
+@inject UserManager<ApplicationUser> UserManager
+@{
     ViewData["Title"] = "Trang chủ Admin";
+    var user = await UserManager.GetUserAsync(User);
 }
 
 <header class="mb-3">
@@ -9,7 +14,9 @@
 </header>
 
 <div class="page-heading">
-    <h3>Thống kê hồ sơ</h3>
+    <h3>
+
+    </h3>
 </div>
 <div class="page-content">
     <section class="row">
@@ -25,8 +32,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Số lượt xem hồ sơ</h6>
-                                    <h6 class="font-extrabold mb-0">112.000</h6>
+                                    <h6 class="text-muted font-semibold">Tổng lượt xem bài viết</h6>
+                                    <h6 class="font-extrabold mb-0">@Model.TotalViewBlog.ToString("N0")</h6>
                                 </div>
                             </div>
                         </div>
@@ -42,8 +49,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Người theo dõi</h6>
-                                    <h6 class="font-extrabold mb-0">183.000</h6>
+                                    <h6 class="text-muted font-semibold">Người cần hỗ trợ</h6>
+                                    <h6 class="font-extrabold mb-0">@Model.NumberContact.ToString("N0")</h6>
                                 </div>
                             </div>
                         </div>
@@ -59,8 +66,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Người đang theo dõi</h6>
-                                    <h6 class="font-extrabold mb-0">80.000</h6>
+                                    <h6 class="text-muted font-semibold">Đăng ký tình nguyện viên</h6>
+                                    <h6 class="font-extrabold mb-0">@Model.NumberVolunteer.ToString("N0")</h6>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +83,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Bài đăng đã lưu</h6>
-                                    <h6 class="font-extrabold mb-0">112</h6>
+                                    <h6 class="text-muted font-semibold">Số lượng bài viết</h6>
+                                    <h6 class="font-extrabold mb-0">@Model.BlogCount.ToString("N0")</h6>
                                 </div>
                             </div>
                         </div>
@@ -97,84 +104,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-xl-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Truy cập hồ sơ</h4>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-7">
-                                    <div class="d-flex align-items-center">
-                                        <svg class="bi text-primary" width="32" height="32" fill="blue"
-                                             style="width:10px">
-                                            <use xlink:href="./LayoutAdmin/static/images/bootstrap-icons.svg#circle-fill" />
-                                        </svg>
-                                        <h5 class="mb-0 ms-3">Quận 9</h5>
-                                    </div>
-                                </div>
-                                <div class="col-5">
-                                    <h5 class="mb-0 text-end">862</h5>
-                                </div>
-                                <div class="col-12">
-                                    <div id="chart-europe"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-7">
-                                    <div class="d-flex align-items-center">
-                                        <svg class="bi text-success" width="32" height="32" fill="blue"
-                                             style="width:10px">
-                                            <use xlink:href="./LayoutAdmin/static/images/bootstrap-icons.svg#circle-fill" />
-                                        </svg>
-                                        <h5 class="mb-0 ms-3">Bình Chánh</h5>
-                                    </div>
-                                </div>
-                                <div class="col-5">
-                                    <h5 class="mb-0 text-end">375</h5>
-                                </div>
-                                <div class="col-12">
-                                    <div id="chart-america"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-7">
-                                    <div class="d-flex align-items-center">
-                                        <svg class="bi text-success" width="32" height="32" fill="blue"
-                                             style="width:10px">
-                                            <use xlink:href="./LayoutAdmin/static/images/bootstrap-icons.svg#circle-fill" />
-                                        </svg>
-                                        <h5 class="mb-0 ms-3">Gò Vấp</h5>
-                                    </div>
-                                </div>
-                                <div class="col-5">
-                                    <h5 class="mb-0 text-end">625</h5>
-                                </div>
-                                <div class="col-12">
-                                    <div id="chart-india"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-7">
-                                    <div class="d-flex align-items-center">
-                                        <svg class="bi text-danger" width="32" height="32" fill="blue"
-                                             style="width:10px">
-                                            <use xlink:href="./LayoutAdmin/static/images/bootstrap-icons.svg#circle-fill" />
-                                        </svg>
-                                        <h5 class="mb-0 ms-3">Quận 1</h5>
-                                    </div>
-                                </div>
-                                <div class="col-5">
-                                    <h5 class="mb-0 text-end">1025</h5>
-                                </div>
-                                <div class="col-12">
-                                    <div id="chart-indonesia"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-xl-8">
+                <div class="col-12">
                     <div class="card">
                         <div class="card-header">
                             <h4>Bình luận mới nhất</h4>
@@ -185,76 +115,58 @@
                                     <thead>
                                         <tr>
                                             <th>Tên</th>
-                                            <th>BÌnh luận</th>
+                                            <th>Bình luận</th>
+                                            <th>Xóa</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td class="col-3">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md">
-                                                        <img src="~/LayoutAdmin/compiled/jpg/5.jpg">
+                                        @foreach (var item in Model.CommentViews)
+                                        {
+                                            var rand = new Random();
+                                            int randomNumber = rand.Next(1, 5);
+                                            <tr>
+                                                <td class="col-3">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="avatar avatar-md">
+                                                            @switch (randomNumber)
+                                                            {
+                                                                case 1:
+                                                                    {
+                                                                        <img src="~/LayoutAdmin/compiled/jpg/5.jpg">
+                                                                        break;
+                                                                    }
+                                                                case 2:
+                                                                    {
+                                                                        <img src="~/LayoutAdmin/compiled/jpg/2.jpg">
+                                                                        break;
+                                                                    }
+                                                                case 3:
+                                                                    {
+                                                                        <img src="~/LayoutAdmin/compiled/jpg/8.jpg">
+                                                                        break;
+                                                                    }
+                                                                case 4:
+                                                                    {
+                                                                        <img src="~/LayoutAdmin/compiled/jpg/3.jpg">
+                                                                        break;
+                                                                    }
+                                                            }
+                                                        </div>
+                                                        <p class="font-bold ms-3 mb-0">@item.FullName</p>
                                                     </div>
-                                                    <p class="font-bold ms-3 mb-0">Anh Phương</p>
-                                                </div>
-                                            </td>
-                                            <td class="col-auto">
-                                                <p class=" mb-0">
-                                                    Ở đây mình được học, được trải nghiệm nhiều cái mới.
-                                                    Mình được cuộc sống an nhàn hơn, không phải suy nghĩ ăn nhậu hay những
-                                                    vấn đề tiêu cực trong cuộc sống thay vào đó là giúp đỡ người khác.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-3">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md">
-                                                        <img src="~/LayoutAdmin/compiled/jpg/2.jpg">
-                                                    </div>
-                                                    <p class="font-bold ms-3 mb-0">Chị Quyên</p>
-                                                </div>
-                                            </td>
-                                            <td class="col-auto">
-                                                <p class=" mb-0">
-                                                    Nhờ có tình thân mà mới có thể nên người cho tới bây giờ.
-                                                    Rất may mắn khi tuổi thơ được gắn liền với Tình Thân.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-3">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md">
-                                                        <img src="~/LayoutAdmin/compiled/jpg/8.jpg">
-                                                    </div>
-                                                    <p class="font-bold ms-3 mb-0">Chị Dung</p>
-                                                </div>
-                                            </td>
-                                            <td class="col-auto">
-                                                <p class=" mb-0">
-                                                    Có những chỗ lương cao cũng mời chị về làm ấy chứ.
-                                                    Nhưng chị không làm. Chị muốn làm cho Tình Thân, vì chị cảm
-                                                    thấy thích, thấy vui khi giúp được cho người khác.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-3">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md">
-                                                        <img src="~/LayoutAdmin/compiled/jpg/3.jpg">
-                                                    </div>
-                                                    <p class="font-bold ms-3 mb-0">Chị Minh Hạ</p>
-                                                </div>
-                                            </td>
-                                            <td class="col-auto">
-                                                <p class=" mb-0">
-                                                    Chung tay góp sức tạo nên ấn phẩm cho Tình Thân quả thật là hành trình
-                                                    đầy thú vị đối với mình. Nhờ hành trình này mà mình biết rằng, còn góc khuất trong những con hẻm nhỏ.
-                                                </p>
-                                            </td>
-                                        </tr>
+                                                </td>
+                                                <td class="col-auto">
+                                                    <a asp-area="" asp-controller="Blog" asp-action="Article"
+                                                        asp-route-permalink="@item.UrlLinkBlog">
+                                                        <p class=" mb-0">@item.Comment</p>
+                                                    </a>
+                                                </td>
+                                                <td>
+
+                                                    <button type="button" class="btn btn-sm btn-danger" onclick="deleteComment(@item.Comment)">Xóa</button>
+                                                </td>
+                                            </tr>
+                                        }
                                     </tbody>
                                 </table>
                             </div>
@@ -271,8 +183,8 @@
                             <img src="~/LayoutAdmin/compiled/jpg/1.jpg" alt="Face 1">
                         </div>
                         <div class="ms-3 name">
-                            <h5 class="font-bold">Phạm Trường Sơn</h5>
-                            <h6 class="text-muted mb-0">Chủ nhiệm</h6>
+                            <h5 class="font-bold">@user.FullName</h5>
+                            <h6 class="text-muted mb-0">@user.FullName</h6>
                         </div>
                     </div>
                 </div>
@@ -287,8 +199,8 @@
                             <img src="~/LayoutAdmin/compiled/jpg/4.jpg">
                         </div>
                         <div class="name ms-4">
-                            <h5 class="mb-1">Nguyễn Thị Kim Dung</h5>
-                            <h6 class="text-muted mb-0">Quản lý</h6>
+                            <h5 class="mb-1">Phạm Trường Sơn</h5>
+                            <h6 class="text-muted mb-0">sonpham</h6>
                         </div>
                     </div>
                     <div class="recent-message d-flex px-4 py-3">
@@ -296,8 +208,8 @@
                             <img src="~/LayoutAdmin/compiled/jpg/5.jpg">
                         </div>
                         <div class="name ms-4">
-                            <h5 class="mb-1">Đào Dũng Phương</h5>
-                            <h6 class="text-muted mb-0">Điều phối viên</h6>
+                            <h5 class="mb-1">Nguyễn Thị Kim Dung</h5>
+                            <h6 class="text-muted mb-0">dungnguyen</h6>
                         </div>
                     </div>
                     <div class="recent-message d-flex px-4 py-3">
@@ -305,8 +217,8 @@
                             <img src="~/LayoutAdmin/compiled/jpg/1.jpg">
                         </div>
                         <div class="name ms-4">
-                            <h5 class="mb-1">Minh Hạ</h5>
-                            <h6 class="text-muted mb-0">Thành viên</h6>
+                            <h5 class="mb-1">Đào Dũng Phương</h5>
+                            <h6 class="text-muted mb-0">phuongdao</h6>
                         </div>
                     </div>
                     <div class="px-4">
@@ -327,3 +239,54 @@
         </div>
     </section>
 </div>
+
+@section Scripts {
+    <script>
+        var dataArray = @Html.Raw(Json.Serialize(@Model.NumberContactMonthly));
+        console.log(dataArray);
+        var optionsProfileVisit = {
+            annotations: {
+                position: "back",
+            },
+            dataLabels: {
+                enabled: false,
+            },
+            chart: {
+                type: "bar",
+                height: 300,
+            },
+            fill: {
+                opacity: 1,
+            },
+            plotOptions: {},
+            series: [
+                {
+                    name: "người liên hệ",
+                    data: dataArray,
+                },
+            ],
+            colors: "#435ebe",
+            xaxis: {
+                categories: [
+                    "Tháng 1",
+                    "Tháng 2",
+                    "Tháng 3",
+                    "Tháng 4",
+                    "Tháng 5",
+                    "Tháng 6",
+                    "Tháng 7",
+                    "Tháng 8",
+                    "Tháng 9",
+                    "Tháng 10",
+                    "Tháng 11",
+                    "Tháng 12",
+                ],
+            },
+        }
+        var chartProfileVisit = new ApexCharts(
+            document.querySelector("#chart-profile-visit"),
+            optionsProfileVisit
+        )
+        chartProfileVisit.render();
+    </script>
+}

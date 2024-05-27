@@ -38,6 +38,7 @@ namespace WebsiteTinhThanFoundation.ServiceExtension
             services.AddScoped(typeof(IBlogArticleCommentService), typeof(BlogArticleCommentService));
             services.AddScoped(typeof(IFirebaseStorageService), typeof(FirebaseStorageService));
             services.AddScoped(typeof(IContactService), typeof(ContactService));
+            services.AddScoped(typeof(IDashboardService), typeof(DashboardService));
             return services;
         }
     }

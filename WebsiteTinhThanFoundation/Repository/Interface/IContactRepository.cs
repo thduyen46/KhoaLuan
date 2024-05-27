@@ -5,5 +5,6 @@ namespace WebsiteTinhThanFoundation.Repository.Interface
 {
     public interface IContactRepository : IGenericRepository<Contact>
     {
+        public Task<Dictionary<int, int>> GetRegistrationCountByMonthAsync();
     }
 }

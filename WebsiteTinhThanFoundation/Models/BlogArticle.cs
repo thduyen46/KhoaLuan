@@ -10,12 +10,12 @@ namespace WebsiteTinhThanFoundation.Models
         public string Title { get; set; }
         public string Content { get; set; }
         public string ShortContent { get; set; }
-        public bool Visible { get; set; }
+        public bool Visible { get; set; } = true;
         public string BlogImage { get; set; }
         [JsonIgnore]
         [NotMapped]
         public IFormFile UploadFile { get; set; }
-        public int Visits { get; set; }
+        public int Visits { get; set; } 
         public DateTime DatePost { get; set; }
         [Required(ErrorMessage = "Phải tạo url")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "{0} dài {1} đến {2}")]
@@ -30,6 +30,8 @@ namespace WebsiteTinhThanFoundation.Models
         [ForeignKey("UserUpdateId")]
         public ApplicationUser? UserUpdate { get; set; }
         public string? HagTags { get; set; }
+        public bool IsDeleted {get; set;} = false;
+        public string? UserRemove {get; set;}
         public virtual ICollection<BlogArticleTag> Tags { get; set; }
         public virtual ICollection<BlogArticleComment> BlogArticleComments { get; set; }
     }

@@ -14,6 +14,5 @@ namespace WebsiteTinhThanFoundation.Services.Interface
         public Task<ICollection<Registeredvolunteers>> GetNotContactAsync();
         public Task<Registeredvolunteers?> GetByIdAsync(Guid? Id);
         public Task<MemoryStream> ExportData();
-        Task<bool> DeleteAsync(int id);
     }
 }

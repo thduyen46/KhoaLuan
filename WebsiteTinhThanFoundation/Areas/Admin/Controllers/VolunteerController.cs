@@ -58,16 +58,5 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             //return File(stream, "application/octet-stream", excelName);  
             return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", excelName);
         }
-  /*      [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(int id)
-        {
-            if (!await _registeredvolunteerService.DeleteAsync(id))
-            {
-                return NotFound();
-            }
-            return RedirectToAction(nameof(Index));
-        }
-        */
     }
 }

@@ -13,7 +13,8 @@ namespace WebsiteTinhThanFoundation.Services.Interface
         public Task<ICollection<BlogArticle>> GetFeatureAsync(int take = 5);
         public Task Add(BlogArticle model, string userId);
         public Task Update(BlogArticleDTO model);
-        public Task Delete(Guid? Id);
+        public Task<bool> ChangeVisible(Guid? Id);
+        public Task<bool>  Delete(Guid? Id, string userId);
 
     }
 }

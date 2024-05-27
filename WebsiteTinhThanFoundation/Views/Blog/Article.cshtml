@@ -11,7 +11,7 @@
                 <!--    <div class="row g-5">      -->
                 <!-- Blog Detail Start -->
                 <div class="mb-5">
-                    <img class="img-fluid w-100 rounded mb-5" src="@(Model.BlogDetail.BlogImage ?? "~/img/blog-1.jpg")" alt="">
+                    <img class="img-fluid w-100 rounded mb-5" src="@(Model.BlogDetail.BlogImage ?? "~/img/blog-2.jpg")" alt="">
                     <h1 class="mb-4">@Model.BlogDetail.Title</h1>
                     @Html.Raw(Model.BlogDetail.Content)
                 </div>
@@ -52,14 +52,7 @@
 
         <!-- Sidebar Start -->
         <div class="col-lg-4">
-            <!-- Search Form Start -->
-            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                <div class="input-group">
-                    <input type="text" class="form-control p-3" placeholder="Từ khóa">
-                    <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                </div>
-            </div>
-            <!-- Search Form End -->
+
             <!-- Recent Post Start -->
             <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                 <div class="section-title section-title-sm position-relative pb-3 mb-4">
@@ -68,7 +61,7 @@
                 @foreach (var item in Model.BlogFeature)
                 {
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="~/img/blogl3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="~/img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a asp-action="Article" asp-route-permalink="@item.Permalink" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 w-100">
                             @item.Title
                         </a>

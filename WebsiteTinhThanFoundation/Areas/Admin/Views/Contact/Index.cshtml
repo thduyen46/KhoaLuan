@@ -40,6 +40,7 @@
                             <th>Mã</th>
                             <th>Họ và tên</th>
                             <th>Ngày đăng ký</th>
+                            <th>Trạng thái</th>
                             <th class="text-end">Chức năng</th>
                         </tr>
                     </thead>
@@ -52,6 +53,16 @@
                                 <td>@item.Id</td>
                                 <td>@item.FullName</td>
                                 <td>@(item.CreatedOn.ToString("HH:mm dd/MM/yyyy"))</td>
+                                <th>
+                                   
+                                    {
+                                        <span class="badge bg-danger-light text-dark">Đã liên lạc</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger text-white">Chưa liên lạc</span>
+                                    }
+                                </th>
                                 <td class="text-end">
                                     <div class="actions">
                                         <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal" data-bs-target="#@elementModal">
@@ -82,8 +93,8 @@
                                     <div class="container">
                                         <p>Họ và tên: @item.FullName</p>
                                         <p>Số điện thoại: @item.NumberPhone</p>
-                                        <p>Tiêu đề: @item.Title</p>
-                                        <p>Nội dung: @item.Content</p>
+                                        <p>Nghề nghiệp: @item.Title</p>
+                                        <p>Tin nhắn: @item.Content</p>
                                     </div>
                                 </div>
                                 <div class="modal-footer">

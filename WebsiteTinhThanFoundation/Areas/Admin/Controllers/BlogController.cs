@@ -75,6 +75,45 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             return View(model);
         }
 
+        public async Task<IActionResult> ChangeVisible(Guid blogId)
+        {
+            try
+            {
+                if(await _blogArticleService.ChangeVisible(blogId))
+                    this.AddToastrMessage("Thay đổi trạng thái thành công", Enums.ToastrMessageType.Success);
+                else
+                    this.AddToastrMessage("Thay đổi không thành công", Enums.ToastrMessageType.Error);
+                return RedirectToAction(nameof(Index));
+            }catch(Exception ex)
+            {
+                this.AddToastrMessage("Thay đổi không thành công", Enums.ToastrMessageType.Error);
+                _logger.LogError(ex.Message);
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(Guid blogId)
+        {
+            try
+            {
+                var user = await _userService.GetUser();
+                if(user == null) {
+                    this.AddToastrMessage("Vui lòng đăng nhập lại và thử lại", Enums.ToastrMessageType.Error);
+                    return RedirectToAction(nameof(Create));
+                }
+                if(await _blogArticleService.Delete(blogId, user.Id))
+                    this.AddToastrMessage("Thay đổi trạng thái thành công", Enums.ToastrMessageType.Success);
+                else
+                    this.AddToastrMessage("Thay đổi không thành công", Enums.ToastrMessageType.Error);
+                return RedirectToAction(nameof(Index));
+            }catch(Exception ex)
+            {
+                this.AddToastrMessage("Thay đổi không thành công", Enums.ToastrMessageType.Error);
+                _logger.LogError(ex.Message);
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
         public async Task<IActionResult> Edit(Guid blogId)
         {
             var blogArticle = (await _blogArticleService.GetByAsync(blogId, x => x.Include(t => t.Tags)));
@@ -119,23 +158,5 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-        
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(Guid blogId)
-        {
-            try
-            {
-                await _blogArticleService.Delete(blogId);
-                TempData["SuccessMessage"] = "Xóa bài viết thành công";
-            }
-            catch (Exception ex)
-            {
-                TempData["ErrorMessage"] = "Đã có lỗi xảy ra khi xóa bài viết";
-                _logger.LogError(ex.Message);
-            }
-            return RedirectToAction(nameof(Index));
-        }
-
     }
 }

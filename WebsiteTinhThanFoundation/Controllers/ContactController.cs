@@ -46,5 +46,6 @@ namespace WebsiteTinhThanFoundation.Controllers
         {
             return View("Error!");
         }
+
     }
 }

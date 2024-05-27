@@ -54,5 +54,10 @@ namespace WebsiteTinhThanFoundation.Services
 
         public async Task<Contact?> GetByIdAsync(Guid Id)
             => await _unitOfWork.ContactRepository.GetAsync(x => x.Id == Id);
+
+        public async Task<Dictionary<int, int>> GetRegistrationCountByMonthAsync()
+        {
+            return await _unitOfWork.ContactRepository.GetRegistrationCountByMonthAsync();
+        }
     }
 }

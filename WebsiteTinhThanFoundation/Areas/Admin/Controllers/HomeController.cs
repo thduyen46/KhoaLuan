@@ -14,13 +14,16 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IDashboardService _service;
+        public HomeController(ILogger<HomeController> logger, IDashboardService service)
         {
+            _service = service;
             _logger = logger;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var model = await _service.GetDashboardView();
+            return View(model);
         }
     }
 }

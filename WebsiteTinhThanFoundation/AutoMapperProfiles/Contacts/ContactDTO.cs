@@ -14,10 +14,10 @@ namespace WebsiteTinhThanFoundation.AutoMapperProfiles.Contacts
         [Phone]
         [Display(Name = "Số điện thoại", Order = 2)]
         public string NumberPhone { get; set; }
-        [Display(Name = "Tiêu đề", Order = 3)]
+        [Display(Name = "Nghề nghiệp", Order = 3)]
         public string Title { get; set; }
 
-        [Display(Name = "Nội dung", Order = 4)]
+        [Display(Name = "Tin nhắn", Order = 4)]
         public string Content { get; set; }
     }
 }

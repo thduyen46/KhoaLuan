@@ -685,10 +685,6 @@
       "PackagePath": "staticwebassets\\img\\LOGO-GREEN-BLUE.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\about-1.png",
-      "PackagePath": "staticwebassets\\img\\about-1.png"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\about-2.png",
       "PackagePath": "staticwebassets\\img\\about-2.png"
     },
@@ -709,32 +705,8 @@
       "PackagePath": "staticwebassets\\img\\blog-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog1.jpg",
-      "PackagePath": "staticwebassets\\img\\blog1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blog2.jpg",
-      "PackagePath": "staticwebassets\\img\\blog2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\blogl3.jpg",
-      "PackagePath": "staticwebassets\\img\\blogl3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carouse-2.jpg",
-      "PackagePath": "staticwebassets\\img\\carouse-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carouse-3.jpg",
-      "PackagePath": "staticwebassets\\img\\carouse-3.jpg"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-1.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-111.jpg",
-      "PackagePath": "staticwebassets\\img\\carousel-111.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\carousel-2.jpg",
@@ -745,56 +717,12 @@
       "PackagePath": "staticwebassets\\img\\carousel-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\feature.jpg",
-      "PackagePath": "staticwebassets\\img\\feature.jpg"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\login.jpg",
       "PackagePath": "staticwebassets\\img\\login.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-1.jpg",
-      "PackagePath": "staticwebassets\\img\\related-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-2.jpg",
-      "PackagePath": "staticwebassets\\img\\related-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-3.jpg",
-      "PackagePath": "staticwebassets\\img\\related-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\related-4.jpg",
-      "PackagePath": "staticwebassets\\img\\related-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-1.jpg",
-      "PackagePath": "staticwebassets\\img\\service-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-2.jpg",
-      "PackagePath": "staticwebassets\\img\\service-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-3.jpg",
-      "PackagePath": "staticwebassets\\img\\service-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-4.jpg",
-      "PackagePath": "staticwebassets\\img\\service-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-5.jpg",
-      "PackagePath": "staticwebassets\\img\\service-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\service-6.jpg",
-      "PackagePath": "staticwebassets\\img\\service-6.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Downloads\\KHOA LUAN TOT NGHIEP\\FRONT END\\KhoaLuan\\WebsiteTinhThanFoundation\\wwwroot\\img\\team-1.jpg",

@@ -33,7 +33,7 @@ namespace WebsiteTinhThanFoundation.Services
             model.CreatedOn = DateTime.UtcNow.ToTimeZone();
             model.DateUpdate = DateTime.UtcNow.ToTimeZone();
             model.BlogImage = "";
-            if(model.UploadFile != null)
+            if (model.UploadFile != null)
             {
                 model.BlogImage = (await _firebaseStorage.UploadFile(model.UploadFile)).ToString();
             }
@@ -60,7 +60,7 @@ namespace WebsiteTinhThanFoundation.Services
                 entry.Tags.Remove(tag);
             }
 
-            foreach (var tag in tags.Where(t => !entry.Tags.Select(et => et.Tag!.Name).Contains(t)).ToArray()) 
+            foreach (var tag in tags.Where(t => !entry.Tags.Select(et => et.Tag!.Name).Contains(t)).ToArray())
             {
                 var existingTag = existingTags.SingleOrDefault(t => t.Name.Equals(tag, StringComparison.OrdinalIgnoreCase));
 
@@ -97,37 +97,55 @@ namespace WebsiteTinhThanFoundation.Services
 
             string permalink = Regex.Replace(result.ToString(), @"[^\w\s-]", "").ToLower();
             var isExist = (await _unitOfWork.BlogArticleRepository.GetAsync(x => x.Permalink.ToLower().Equals(permalink))) != null;
-            if(isExist)
+            if (isExist)
             {
                 return permalink + Guid.NewGuid();
-            }    
+            }
             return permalink;
         }
 
-        public Task Delete(Guid? Id)
+        public async Task<bool> Delete(Guid? Id, string userId)
         {
-            throw new NotImplementedException();
+            var blog = await GetByAsync(Id);
+            if (blog == null)
+                return false;
+            blog.IsDeleted = true;
+            blog.UserRemove = userId;
+            _unitOfWork.BlogArticleRepository.Update(blog);
+            await _unitOfWork.CommitAsync();
+            return true;
+        }
+
+        public async Task<bool> ChangeVisible(Guid? Id)
+        {
+            var blog = await GetByAsync(Id);
+            if (blog == null)
+                return false;
+            blog.Visible = !blog.Visible;
+            _unitOfWork.BlogArticleRepository.Update(blog);
+            await _unitOfWork.CommitAsync();
+            return true;
         }
 
         public async Task<ICollection<BlogArticle>> GetAllAsync(string? keyword = null, string? tag = null, Func<IQueryable<BlogArticle>, IIncludableQueryable<BlogArticle, object>>? includes = null, bool? isActive = null)
         {
-            ICollection<BlogArticle> model = new List<BlogArticle>();  
-                
-            if(keyword != null && tag != null)
+            ICollection<BlogArticle> model = new List<BlogArticle>();
+
+            if (keyword != null && tag != null)
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword) && (isActive != null ? x.Visible == isActive : true) && x.Tags.Any(q => q.Tag!.Name.Contains(tag)), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword) && !x.IsDeleted && (isActive != null ? x.Visible == isActive : true) && x.Tags.Any(q => q.Tag!.Name.Contains(tag)), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
             }
-            else if(keyword != null && tag == null)
+            else if (keyword != null && tag == null)
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword) && (isActive != null ? x.Visible == isActive : true), includes);
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Title.Contains(keyword) && !x.IsDeleted && (isActive != null ? x.Visible == isActive : true), includes);
             }
-            else if(keyword == null && tag != null)
+            else if (keyword == null && tag != null)
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Tags.Any(q => q.Tag!.Name.Contains(tag)) && (isActive != null ? x.Visible == isActive : true), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => x.Tags.Any(q => q.Tag!.Name.Contains(tag)) && !x.IsDeleted && (isActive != null ? x.Visible == isActive : true), x => x.Include(bt => bt.Tags).ThenInclude(t => t.Tag));
             }
             else
             {
-                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => isActive == null || x.Visible == isActive, includes);
+                model = await _unitOfWork.BlogArticleRepository.GetAllAsync(x => (isActive == null || x.Visible == isActive) && !x.IsDeleted, includes);
             }
             return model;
         }
@@ -145,18 +163,18 @@ namespace WebsiteTinhThanFoundation.Services
             {
                 throw new Exception($"BlogID {model.BlogId} is not found.");
             }
-            if(model.Title != blogArticle.Title)
+            if (model.Title != blogArticle.Title)
             {
                 blogArticle.Permalink = await GeneratePermalink(model.Title);
             }
-            if(blogArticle.HagTags != model.HagTags)
+            if (blogArticle.HagTags != model.HagTags)
             {
                 List<string>? tagList = JsonConvert.DeserializeObject<List<TagModel>>(blogArticle.HagTags!)?.Select(x => x.Value).ToList();
                 if (tagList != null && tagList.Count > 0)
                 {
                     await AddTags(blogArticle, tagList);
                 }
-            }    
+            }
             _mapper.Map(model, blogArticle);
             model.UploadFile = blogArticle.UploadFile;
             if (blogArticle.UploadFile != null)
@@ -174,7 +192,7 @@ namespace WebsiteTinhThanFoundation.Services
         public async Task<BlogArticle?> GetByPermalink(string? permalink, Func<IQueryable<BlogArticle>, IIncludableQueryable<BlogArticle, object>>? includes = null)
         {
             var model = await _unitOfWork.BlogArticleRepository.GetAsync(x => x.Permalink == permalink, includes);
-            if(model != null)
+            if (model != null)
             {
                 model.Visits++;
                 await _unitOfWork.CommitAsync();

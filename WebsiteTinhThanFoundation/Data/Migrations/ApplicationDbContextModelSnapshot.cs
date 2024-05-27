@@ -300,6 +300,9 @@ namespace WebsiteTinhThanFoundation.Migrations
                     b.Property<string>("HagTags")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Permalink")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -315,6 +318,9 @@ namespace WebsiteTinhThanFoundation.Migrations
 
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("UserRemove")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserUpdateId")
                         .HasColumnType("nvarchar(450)");

@@ -9,7 +9,7 @@ namespace WebsiteTinhThanFoundation.Services.Interface
         public Task<bool> AcceptContact(Guid Id);
         public Task<ICollection<Contact>> GetAllAsync();
         public Task<Contact?> GetByIdAsync(Guid Id);
+        public Task<Dictionary<int, int>> GetRegistrationCountByMonthAsync();
         public Task<MemoryStream> ExportData();
-        Task DeleteAsync(int id);
     }
 }

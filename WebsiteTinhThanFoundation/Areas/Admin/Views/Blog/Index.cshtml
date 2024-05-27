@@ -73,18 +73,25 @@
                                     @(item.DateUpdate.ToString("HH:mm dd/MM/yyyy"))
                                 </td>
                                 <th>
-                                    @item.Visible
+                                    @if(item.Visible)
+                                    {
+                                        <span class="badge bg-success">Hoạt động</span>
+                                    }
+                                    else{
+                                        <span class="badge bg-danger">Ẩn</span>
+                                    }
                                 </th>
                                 <td class="text-end">
                                     <div class="actions">
                                         <a asp-action="Edit" asp-route-blogId="@item.Id" class="btn btn-sm bg-danger-light">
                                             <i class="far fa-edit"></i>
                                         </a>
-                                        <form asp-action="Delete" asp-route-blogId="@item.Id" method="post" class="d-inline">
-                                            <button type="submit" class="btn btn-sm btn-danger">
-                                                <i class="far fa-trash-alt"></i>
-                                            </button>
-                                        </form>
+                                        <a asp-action="ChangeVisible" asp-route-blogId="@item.Id" class="btn btn-sm bg-danger-light">
+                                            <i class="fas fa-check"></i>
+                                        </a>
+                                        <a asp-action="ChangeVisible" asp-route-blogId="@item.Id" class="btn btn-sm bg-danger-light">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
                                     </div>
                                 </td>
                             </tr>
@@ -93,5 +100,6 @@
                 </table>
             </div>
         </div>
+
     </section>
 </div>
