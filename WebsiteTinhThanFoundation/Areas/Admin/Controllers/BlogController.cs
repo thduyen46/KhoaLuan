@@ -92,6 +92,7 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpPost]
         public async Task<IActionResult> Delete(Guid blogId)
         {
             try
@@ -130,6 +131,7 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             }
             return View(model);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(BlogArticleDTO model, Guid blogId)

@@ -11,5 +11,6 @@ namespace WebsiteTinhThanFoundation.Services.Interface
         public Task<Contact?> GetByIdAsync(Guid Id);
         public Task<Dictionary<int, int>> GetRegistrationCountByMonthAsync();
         public Task<MemoryStream> ExportData();
+        Task<bool> Delete(Guid contactId);
     }
 }

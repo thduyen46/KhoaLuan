@@ -5,6 +5,7 @@
 
 function LoadEditor() {
 	var editorElements = document.querySelectorAll('.editor');
+	console.log('RUNN');
 	editorElements.forEach(function (editorElement) {
 		if (!editorElement.getAttribute('data-ckeditor-initialized')) {
 			CKEDITOR.replace(editorElement, {

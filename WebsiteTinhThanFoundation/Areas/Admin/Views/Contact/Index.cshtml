@@ -54,7 +54,7 @@
                                 <td>@item.FullName</td>
                                 <td>@(item.CreatedOn.ToString("HH:mm dd/MM/yyyy"))</td>
                                 <th>
-                                   
+                                 
                                     {
                                         <span class="badge bg-danger-light text-dark">Đã liên lạc</span>
                                     }
@@ -116,7 +116,7 @@
                                     <p>Bạn có chắc chắn muốn xóa liên hệ của <strong>@item.FullName</strong>?</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <form asp-action="Delete" asp-controller="Contact" asp-route-id="@item.Id" method="post">
+                                    <form asp-action="Delete" enctype="multipart/form-data" asp-route-contactId="@item.Id">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
                                         <button type="submit" class="btn btn-danger">Xóa</button>
                                     </form>

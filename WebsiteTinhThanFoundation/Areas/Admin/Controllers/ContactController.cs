@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebsiteTinhThanFoundation.Helpers;
 using WebsiteTinhThanFoundation.Models;
+using WebsiteTinhThanFoundation.Services;
 using WebsiteTinhThanFoundation.Services.Interface;
 
 namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
@@ -21,6 +22,8 @@ namespace WebsiteTinhThanFoundation.Areas.Admin.Controllers
             var model = await _service.GetAllAsync();
             return View(model);
         }
+
+       
 
         public async Task<IActionResult> Export(CancellationToken cancellationToken)
         {

@@ -38,12 +38,10 @@
                 <table class="table table-striped" id="table1">
                     <thead>
                         <tr>
-                            <th>Mã</th>
+                            <th>#</th>
                             <th>Tên hiển thị</th>
                             <th>Đường dẫn</th>
-                            <th>Người đăng</th>
                             <th>Ngày đăng</th>
-                            <th>Người cập nhật</th>
                             <th>Ngày cập nhật</th>
                             <th>Trạng thái</th>
                             <th class="text-end">Chức năng</th>
@@ -51,7 +49,7 @@
                     </thead>
                     <tbody>
                         @foreach (var item in Model)
-                        {
+                        {                         
                             <tr role="row">
                                 <td>@(count++)</td>
                                 <td>
@@ -61,37 +59,34 @@
                                     @item.Permalink
                                 </td>
                                 <td>
-                                    @(item.UserPost is null ? "" : item.UserPost.FullName)
-                                </td>
-                                <td>
                                     @(item.CreatedOn.ToString("HH:mm dd/MM/yyyy"))
-                                </td>
-                                <td>
-                                    @(item.UserUpdate is null ? "" : item.UserUpdate.FullName)
                                 </td>
                                 <td>
                                     @(item.DateUpdate.ToString("HH:mm dd/MM/yyyy"))
                                 </td>
                                 <th>
-                                    @if(item.Visible)
+                                    @if (item.Visible)
                                     {
                                         <span class="badge bg-success">Hoạt động</span>
                                     }
-                                    else{
+                                    else
+                                    {
                                         <span class="badge bg-danger">Ẩn</span>
                                     }
                                 </th>
                                 <td class="text-end">
-                                    <div class="actions">
+                                    <div class="actions d-flex justify-content-end">
                                         <a asp-action="Edit" asp-route-blogId="@item.Id" class="btn btn-sm bg-danger-light">
                                             <i class="far fa-edit"></i>
                                         </a>
                                         <a asp-action="ChangeVisible" asp-route-blogId="@item.Id" class="btn btn-sm bg-danger-light">
                                             <i class="fas fa-check"></i>
-                                        </a>
-                                        <a asp-action="ChangeVisible" asp-route-blogId="@item.Id" class="btn btn-sm bg-danger-light">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
+                                        </a>               
+                                        <form asp-action="Delete" enctype="multipart/form-data" asp-route-blogId="@item.Id">
+                                            <button type="submit" class="btn btn-sm bg-danger-light">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </form>
                                     </div>
                                 </td>
                             </tr>
