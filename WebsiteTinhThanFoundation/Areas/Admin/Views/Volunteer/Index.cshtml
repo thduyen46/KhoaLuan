@@ -49,8 +49,7 @@
                     <tbody>
                         @foreach (var item in Model)
                         {
-                            var elementModal = $"ElementModalVolunteer{item.Id}";
-                            var deleteModal = $"DeleteModalVolunteer{item.Id}";
+                            var elementModal = $"ElementModalVolunteer{item.Id}";                      
                             <tr role="row">
                                 <td>@item.Id</td>
                                 <td>@item.FullName</td>
@@ -72,9 +71,6 @@
                                         <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal" data-bs-target="#@elementModal">
                                             <i class="fas fa-eye"></i>
                                         </a>
-                                        <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal" data-bs-target="#@deleteModal">
-                                            <i class="fas fa-trash-alt"></i>
-                                        </a>
                                     </div>
                                 </td>
                             </tr>
@@ -84,7 +80,6 @@
                 @foreach (var item in Model)
                 {
                     var elementModal = $"ElementModalVolunteer{item.Id}";
-                    var deleteModal = $"DeleteModalVolunteer{item.Id}";
                     <!-- View Modal -->
                     <div class="modal fade" id="@elementModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
@@ -108,28 +103,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Delete Modal -->
-                    <div class="modal fade" id="@deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="deleteModalLabel">Xóa tình nguyện viên</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Bạn có chắc chắn muốn xóa tình nguyện viên <strong>@item.FullName</strong>?</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <form asp-action="Delete" asp-controller="Volunteer" asp-route-id="@item.Id" method="post">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
-                                        <button type="submit" class="btn btn-danger">Xóa</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Delete Modal End-->
                 }
             </div>
         </div>

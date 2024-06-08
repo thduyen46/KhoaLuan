@@ -103,77 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Bình luận mới nhất</h4>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-hover table-lg">
-                                    <thead>
-                                        <tr>
-                                            <th>Tên</th>
-                                            <th>Bình luận</th>
-                                            <th>Xóa</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach (var item in Model.CommentViews)
-                                        {
-                                            var rand = new Random();
-                                            int randomNumber = rand.Next(1, 5);
-                                            <tr>
-                                                <td class="col-3">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="avatar avatar-md">
-                                                            @switch (randomNumber)
-                                                            {
-                                                                case 1:
-                                                                    {
-                                                                        <img src="~/LayoutAdmin/compiled/jpg/5.jpg">
-                                                                        break;
-                                                                    }
-                                                                case 2:
-                                                                    {
-                                                                        <img src="~/LayoutAdmin/compiled/jpg/2.jpg">
-                                                                        break;
-                                                                    }
-                                                                case 3:
-                                                                    {
-                                                                        <img src="~/LayoutAdmin/compiled/jpg/8.jpg">
-                                                                        break;
-                                                                    }
-                                                                case 4:
-                                                                    {
-                                                                        <img src="~/LayoutAdmin/compiled/jpg/3.jpg">
-                                                                        break;
-                                                                    }
-                                                            }
-                                                        </div>
-                                                        <p class="font-bold ms-3 mb-0">@item.FullName</p>
-                                                    </div>
-                                                </td>
-                                                <td class="col-auto">
-                                                    <a asp-area="" asp-controller="Blog" asp-action="Article"
-                                                        asp-route-permalink="@item.UrlLinkBlog">
-                                                        <p class=" mb-0">@item.Comment</p>
-                                                    </a>
-                                                </td>
-                                                <td>
 
-                                                    <button type="button" class="btn btn-sm btn-danger" onclick="deleteComment(@item.Comment)">Xóa</button>
-                                                </td>
-                                            </tr>
-                                        }
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="col-12 col-lg-3">
             <div class="card">

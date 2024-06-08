@@ -413,6 +413,9 @@ namespace WebsiteTinhThanFoundation.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsContacted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("NumberPhone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

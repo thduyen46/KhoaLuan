@@ -53,24 +53,23 @@
         <!-- Sidebar Start -->
         <div class="col-lg-4">
 
-            <!-- Recent Post Start -->
-            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                    <h3 class="mb-0">Bài viết gần đây</h3>
-                </div>
-                @foreach (var item in Model.BlogFeature)
-                {
-                    <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="~/img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a asp-action="Article" asp-route-permalink="@item.Permalink" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 w-100">
-                            @item.Title
-                        </a>
+                <!-- Recent Post Start -->
+                <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                        <h3 class="mb-0">Bài viết gần đây</h3>
                     </div>
-                }
-
-            </div>
-            <!-- Recent Post End -->
-            <!-- Tags Start -->
+                    @foreach (var item in Model.BlogFeature.Where(x => !x.IsDeleted))
+                    {
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="~/img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a asp-action="Article" asp-route-permalink="@item.Permalink" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 w-100">
+                                @item.Title
+                            </a>
+                        </div>
+                    }
+                </div>
+                <!-- Recent Post End -->
+                <!-- Tags Start -->
             <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                 <div class="section-title section-title-sm position-relative pb-3 mb-4">
                     <h3 class="mb-0">Gắn thẻ</h3>

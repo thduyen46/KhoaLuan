@@ -12,5 +12,6 @@ namespace WebsiteTinhThanFoundation.Models
         public string Title { get; set; }
         [Column("Message")]
         public string Content { get; set; }
+        public bool IsContacted { get; set; }
     }
 }

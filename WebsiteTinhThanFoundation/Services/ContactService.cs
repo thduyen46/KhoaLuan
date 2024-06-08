@@ -17,9 +17,17 @@ namespace WebsiteTinhThanFoundation.Services
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-        public Task<bool> AcceptContact(Guid Id)
+        public async Task<bool> AcceptContact(Guid Id)
         {
-            throw new NotImplementedException();
+            var model = await _unitOfWork.ContactRepository.GetAsync(x => x.Id == Id);
+            if (model != null)
+            {
+                model.IsContacted = true;
+                _unitOfWork.ContactRepository.Update(model);
+                await _unitOfWork.CommitAsync();
+                return true;
+            }
+            return false;
         }
 
         public async Task Add(Contact model)
@@ -35,7 +43,7 @@ namespace WebsiteTinhThanFoundation.Services
         public async Task<MemoryStream> ExportData()
         {
             await Task.Yield();
-            var list = _mapper.Map<List<ContactDTO>>(await GetAllAsync());
+            var list = _mapper.Map<List<ContactDTO>>(await _unitOfWork.ContactRepository.GetAllAsync(x => x.IsContacted == false));
             var stream = new MemoryStream();
 
             using (var package = new ExcelPackage(stream))
